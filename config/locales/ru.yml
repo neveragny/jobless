@@ -1,0 +1,18 @@
+ru:
+  listings:
+    created: "Заявка создана."
+    my_current_listings: "Мой заявки."
+  common:
+    please_authenticate: Пожалуйста, авторизируйтесь
+    set_password: "Установить пароль."
+    please_set_your_password: "Укажите желаемый пароль для вашего аккаунта."
+    close: "Закрыть"
+    save_changes: "Сохранить изменения"
+  activerecord:
+    errors:
+      models:
+        employee:
+          attributes:
+            email:
+              blank: "не указан"
+              taken: "уже занят"

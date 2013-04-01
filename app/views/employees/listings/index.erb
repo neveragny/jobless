@@ -1,0 +1,7 @@
+<h3><%= I18n.t("listings.my_current_listings") %></h3>
+<% unless @listings.nil? %>
+    <% @listings.each do |listing| %>
+        <p><%= listing.current_occupation %></p>
+        <p><%= listing.future_occupation %></p>
+    <% end %>
+<% end %>
