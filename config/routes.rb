@@ -16,6 +16,7 @@ Jobless::Application.routes.draw do
   root to: 'home#index'
 
   devise_for :employees, controllers: { sessions: 'employees/sessions' }
+  post 'employees/set_password' => 'employees#set_password'
 
   scope module: 'employees' do
     resources :listings
@@ -24,7 +25,7 @@ Jobless::Application.routes.draw do
       resource :employee_details, only: [ :edit, :update, :create ] do
         post :remove_avatar, :on => :collection
       end
-      post '/set_password' => 'employees#set_password'
+      
 
       resources :cv_views, only: [ :index, :destroy ] do
         post :batch_destroy, :on => :collection
