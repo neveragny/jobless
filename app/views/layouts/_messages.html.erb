@@ -1,8 +1,16 @@
 <% flash.each do |name, msg| %>
   <% if msg.is_a?(String) %>
-    <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
-      <a class="close" data-dismiss="alert">&#215;</a>
-      <%= content_tag :div, msg, :id => "flash_#{name}" %>
-    </div>
+  <script type="text/javascript">
+  	$('.show-'+ <%= name == :notice ? "success" : "error" %>).click(function (e) {
+        $('.top-right').notify({ message: { text: <%= msg %> }, type: <%= name == :notice ? "success" : "error" %> }).show();
+      });
+  </script>
   <% end %>
 <% end %>
+
+
+<!-- 
+    <div class="alert alert-<%#= name == :notice ? "success" : "error" %>">
+      <a class="close" data-dismiss="alert">&#215;</a>
+      <%#= content_tag :div, msg, :id => "flash_#{name}" %>
+    </div> -->
