@@ -3,3 +3,6 @@
 
 en:
   hello: "Hello world"
+  common:
+    time:
+      less_than_one_minutes: ""

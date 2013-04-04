@@ -22,16 +22,16 @@ Jobless::Application.routes.draw do
     resources :listings
 
     scope '/employees' do
-      resource :employee_details, only: [ :edit, :update, :create ] do
-        post :remove_avatar, :on => :collection
-      end
-      
+      match '/my_listings' => 'listings#my_listings'
+      #resource :employee_details, only: [ :edit, :update, :create ] do
+      #  post :remove_avatar, :on => :collection
+      #end
 
-      resources :cv_views, only: [ :index, :destroy ] do
-        post :batch_destroy, :on => :collection
-      end
-      post '/set_cover_cv/:id' => 'employee_details#set_cover_cv', as: 'set_cover_cv'
-      post '/remove_cover_cv' => 'employee_details#remove_cover_cv', as: 'remove_cover_cv'
+      #resources :cv_views, only: [ :index, :destroy ] do
+      #  post :batch_destroy, :on => :collection
+      #end
+      #post '/set_cover_cv/:id' => 'employee_details#set_cover_cv', as: 'set_cover_cv'
+      #post '/remove_cover_cv' => 'employee_details#remove_cover_cv', as: 'remove_cover_cv'
 
       scope '/:employee_id' do
         get '' => 'profiles#show', as: 'employee_profile'

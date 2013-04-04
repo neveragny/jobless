@@ -1,9 +1,13 @@
 <%= simple_form_for @listing do |f| %>
-    <%= f.input :current_occupation %>
-    <%= f.input :current_salary %>
-    <%= f.input :city %>
-    <%= f.input :future_occupation %>
-    <%= f.input :future_salary %>
-    <%= f.input :email %>
+    <div class="inputs">
+        Я <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %>, и я получаю
+        <%= f.input :current_salary, label:false, placeholder:I18n.t("listings.input.placeholder.current_salary")  %>  в месяц.
+        Город <%= f.input :city, label:false %>.
+
+
+      <%= f.input :future_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.future_occupation") %>
+      <%= f.input :future_salary, label:false, placeholder:I18n.t("listings.input.placeholder.future_salary") %>
+    </div>
+    <%= f.input :email, inline_label: "sdfs", placeholder:I18n.t("listings.input.placeholder.email") %>
     <%= f.button :submit %>
 <% end %>

@@ -12,4 +12,52 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def time_ago(from_time, to_time=Time.now, options = {})
+    from_time = from_time.to_time if from_time.respond_to?(:to_time)
+    to_time = to_time.to_time if to_time.respond_to?(:to_time)
+    distance_in_minutes = (((to_time - from_time).abs)/60).round
+    distance_in_seconds = ((to_time - from_time).abs).round
+
+    I18n.with_options :locale => options[:locale] do |locale|
+      case distance_in_minutes
+        when 0..1
+          return I18n.t(:less_than_x_minutes, :count => 1) if distance_in_minutes == 0
+
+          case distance_in_seconds
+            when 0..59 then I18n.t :less_than_one_minutes, :count => 1
+            else I18n.t :x_minutes, :count => 1
+          end
+
+        when 2..4 then I18n.t :two_four_minutes, :count => distance_in_minutes
+        when 5..44 then I18n.t :x_minutes, :count => distance_in_minutes
+        when 45..89 then I18n.t :about_one_hour
+        when 90..240 then I18n.t :about_x_hours, :count => (distance_in_minutes.to_f / 60.0).round # 2..4 chasa
+        when 241..1200 then I18n.t :x_hours_chasov, :count => (distance_in_minutes.to_f / 60.0).round #5..20 chasov
+        when 1260..1319 then I18n.t :x_hours_21, :count => 21
+        when 1440..2519 then I18n.t :x_day, :count => 1
+        when 2520..43199 then I18n.t :x_days, :count => (distance_in_minutes.to_f / 1440.0).round
+        when 43200..86399 then I18n.t :about_x_months, :count => 1
+        when 86400..525599 then I18n.t :x_months, :count => (distance_in_minutes.to_f / 43200.0).round
+        else
+      end
+    end
+  end
+
+  def currency(item, type)
+    case item.send("#{type}_currency")
+      when '1' then 'UAH'
+      when '2' then 'USD'
+      when '3' then 'RUR'
+      else
+    end
+  end
+
+  def worktype(item)
+    case item.future_worktype
+      when '1' then I18n.t :fulltime
+      when '2' then I18n.t :partiall
+      when '3' then I18n.t :remote
+    end
+  end
+
 end

@@ -1,14 +1,63 @@
 ru:
+  simple_form:
+    labels:
+      password:
+        password: "Введите пароль"
+        password_confirmation: "Подтвердите пароль"
+      employee:
+        password: "Пароль"
+        password_confirmation: "Подтвердите пароль"
+        current_password: "Текущий пароль"
   listings:
     created: "Заявка создана."
-    my_current_listings: "Мой заявки."
+    my_current_listings: "Мои заявки."
+    input:
+      placeholder:
+        current_occupation: "ваша текущая должность"
+        current_salary: "например, 5000"
+        future_occupation: "ваша желаемая должность"
+        future_salary: "например, 7000"
+        email: "ваш email"
   common:
     please_authenticate: Пожалуйста, авторизируйтесь
     set_password: "Установить пароль."
     please_set_your_password: "Укажите желаемый пароль для вашего аккаунта."
     close: "Закрыть"
-    save_changes: "Сохранить изменения"
+    save_changes: "Сохранить изменения."
+    password_updated: "Пароль установлен."
+    back: "назад"
+    login: "войти"
+    logout: "выйти"
+    signup: "зарегистрироватся"
+    cancel_account_title: "Удалить аккаунт"
+    cancel_account_link: "удалить мой аккаунт и все данные"
+    password_hint: "Нам нужен ваш пароль что бы подтвердить изменения"
+    empty_passwd_hint: "Оставьте пустым если не отите меня пароль"
+    rusure: "Вы уверены?"
+    unhappy: "Не довольны?"
+  text:
+    recent_listings: "Последние заявки"
+    recent_jobs: "Последние вакансии"
+    all_listings: "Все заявки"
+
+  employee:
+    edit_account: "Редактировать профиль"
+    my_listings: "Мои заявки"
+  helpers:
+    submit:
+      listing:
+        create: "Добавить заявку"
   activerecord:
+    attributes:
+      listing:
+        current_occupation: "Текущая должность"
+        current_salary: "Текущая зарплата"
+        city: "Город"
+        future_occupation: "Желаемая должность"
+        future_salary: "Желаема зарплата"
+      employee:
+        password: "Пароль"
+
     errors:
       models:
         employee:
@@ -16,3 +65,19 @@ ru:
             email:
               blank: "не указан"
               taken: "уже занят"
+            password:
+              blank: "не указан"
+              too_short: "слишком короткий"
+  less_than_x_minutes: 'только что'
+  less_than_one_minutes: 'только что'
+  two_four_minutes: '%{count} минуты назад'
+  x_minutes: '%{count} минут назад'
+  about_one_hour: 'около часа назад'
+  about_x_hours: '%{count} часа назад'
+  x_hours_chasov: '%{count} часов назад'
+  x_hours_21: '%{count} час назад'
+  x_day: '1 день назад'
+  x_days: '%{count} дней назад'
+  about_x_months: '%{count} месяц назад'
+  x_months: 'месяцев назад'
+  message_from_jobsale: 'Сообщение от JobSale.com.ua'

@@ -1,9 +1,13 @@
 class Employees::ListingsController < EmployeesController
-  before_filter :authenticate_user!, :only => [:index]
+  before_filter :authenticate_user!, :only => [:my_listings]
 
   def index
-    @listings = current_user.listings
+    @listings = Listing.all
 
+  end
+
+  def my_listings
+    @listings = current_user.listings
   end
 
   def create
