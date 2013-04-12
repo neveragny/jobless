@@ -14,6 +14,17 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&subset=latin,cyrillic-ext,cyrillic);
 
+body h2 {
+  font-weight: 100;
+}
+
+body .navbar-inner {
+  min-height: 40px;
+}
+
+li.my-listins a{
+  color: #3a87ad !important;
+}
 
 .content {
   background-color: #ffffff;
@@ -35,6 +46,14 @@ nav.navbar-inner div.container ul.nav.user-links {
 nav.navbar-inner div.container ul.nav > li > a {
   color: #777;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-decoration: underline;
+}
+
+nav.navbar-inner div.container .brand {
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 nav.navbar-inner div.container ul.nav li.nav-email a {

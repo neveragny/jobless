@@ -6,3 +6,5 @@ en:
   common:
     time:
       less_than_one_minutes: ""
+  employee:
+    my_listings: "Мои заявки"

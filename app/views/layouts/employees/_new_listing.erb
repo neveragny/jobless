@@ -1,13 +1,21 @@
 <%= simple_form_for @listing do |f| %>
     <div class="inputs">
-        Я <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %>, и я получаю
+
+        Моя текущая должность <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %>, и я получаю
         <%= f.input :current_salary, label:false, placeholder:I18n.t("listings.input.placeholder.current_salary")  %>  в месяц.
-        Город <%= f.input :city, label:false %>.
+        <p></p>
 
-
-      <%= f.input :future_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.future_occupation") %>
-      <%= f.input :future_salary, label:false, placeholder:I18n.t("listings.input.placeholder.future_salary") %>
+      Я заинтересован ТОЛЬКО в вакансии: <%= f.input :future_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.future_occupation") %>
+      с зарплатой как минимум: <%= f.input :future_salary, label:false, placeholder:I18n.t("listings.input.placeholder.future_salary") %>
+      <p></p>
+      Город <%= f.input :city, label:false, placeholder:I18n.t("listings.input.placeholder.city") %>
+      <p></p>
+        <% unless employee_signed_in?  %>
+        Отправлять рекрутеров сюда: <%= f.input :email, label:false, placeholder:I18n.t("listings.input.placeholder.email") %>
+        <i> (мы спрячем ваш адрес)</i>
+          <% end %>
     </div>
-    <%= f.input :email, inline_label: "sdfs", placeholder:I18n.t("listings.input.placeholder.email") %>
+
+
     <%= f.button :submit %>
 <% end %>

@@ -13,12 +13,16 @@ ru:
     my_current_listings: "Мои заявки."
     input:
       placeholder:
-        current_occupation: "ваша текущая должность"
-        current_salary: "например, 5000"
-        future_occupation: "ваша желаемая должность"
-        future_salary: "например, 7000"
-        email: "ваш email"
+        current_occupation: "          укажите должность"
+        current_salary: "        например, 5000"
+        future_occupation: " укажите желаемую должность"
+        future_salary: "      например, 7000"
+        email: "     укажите ваш email"
+        city: "        укажите город"
   common:
+    signin: "Войти"
+    signup: "Зарегистрироваться"
+    ready: "Готово"
     please_authenticate: Пожалуйста, авторизируйтесь
     set_password: "Установить пароль."
     please_set_your_password: "Укажите желаемый пароль для вашего аккаунта."
@@ -35,6 +39,7 @@ ru:
     empty_passwd_hint: "Оставьте пустым если не отите меня пароль"
     rusure: "Вы уверены?"
     unhappy: "Не довольны?"
+    forgot_password: "Забыли пароль?"
   text:
     recent_listings: "Последние заявки"
     recent_jobs: "Последние вакансии"
@@ -42,7 +47,11 @@ ru:
 
   employee:
     edit_account: "Редактировать профиль"
+    all_listings: "Все заявки"
     my_listings: "Мои заявки"
+    registration: "Регистрация соискателя"
+  employer:
+    registration: "Регистрация рекрутера"
   helpers:
     submit:
       listing:
