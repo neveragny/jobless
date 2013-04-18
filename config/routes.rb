@@ -1,41 +1,22 @@
-#Jobless::Application.routes.draw do
-#  devise_for :employers
-#
-#  devise_for :employees
-#
-#  authenticated :user do
-#    root :to => 'home#index'
-#  end
-#  root :to => "home#index"
-#  devise_for :users
-#  resources :users
-#end
-
 Jobless::Application.routes.draw do
 
   root to: 'home#index'
 
   devise_for :employees, controllers: { sessions: 'employees/sessions' }
   post 'employees/set_password' => 'employees#set_password'
+  post 'employees/send_message' => 'employees#send_message'
+  get 'employees/:message_id/mark_as_read' => 'employees#mark_as_read', :as => :mark_as_read
 
   scope module: 'employees' do
     resources :listings
 
     scope '/employees' do
       match '/my_listings' => 'listings#my_listings'
-      #resource :employee_details, only: [ :edit, :update, :create ] do
-      #  post :remove_avatar, :on => :collection
-      #end
+      match '/messages' => 'listings#messages'
 
-      #resources :cv_views, only: [ :index, :destroy ] do
-      #  post :batch_destroy, :on => :collection
-      #end
-      #post '/set_cover_cv/:id' => 'employee_details#set_cover_cv', as: 'set_cover_cv'
-      #post '/remove_cover_cv' => 'employee_details#remove_cover_cv', as: 'remove_cover_cv'
 
       scope '/:employee_id' do
-        get '' => 'profiles#show', as: 'employee_profile'
-        get '/cvs/:id' => 'cvs#show', as: 'employee_cv'
+        get '/contact' => 'listings#contact', as: 'contact_employee'
       end
     end
   end

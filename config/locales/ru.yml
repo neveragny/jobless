@@ -11,6 +11,8 @@ ru:
   listings:
     created: "Заявка создана."
     my_current_listings: "Мои заявки."
+    message_suc_sent: "Сообщение доставлено."
+    mark_as_read: "отметить как прочитаное"
     input:
       placeholder:
         current_occupation: "          укажите должность"
@@ -19,6 +21,10 @@ ru:
         future_salary: "      например, 7000"
         email: "     укажите ваш email"
         city: "        укажите город"
+    contact_form:
+      title: "Напишите сообщение"
+      tip1: ""
+      send: "отправить"
   common:
     signin: "Войти"
     signup: "Зарегистрироваться"
@@ -49,6 +55,7 @@ ru:
     edit_account: "Редактировать профиль"
     all_listings: "Все заявки"
     my_listings: "Мои заявки"
+    my_messages: "Мои сообщения"
     registration: "Регистрация соискателя"
   employer:
     registration: "Регистрация рекрутера"
@@ -77,6 +84,13 @@ ru:
             password:
               blank: "не указан"
               too_short: "слишком короткий"
+        message:
+          attributes:
+            from_email:
+              blank: "не указан"
+            body:
+              blank: "пустой"
+
   less_than_x_minutes: 'только что'
   less_than_one_minutes: 'только что'
   two_four_minutes: '%{count} минуты назад'

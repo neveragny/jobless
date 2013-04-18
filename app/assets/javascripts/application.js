@@ -14,3 +14,18 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+$(document).ready(function () {
+    $('.contact-link').click(function(){
+        var contactId = $(this).data("contact");
+        $("#contact_message_contact_id").val(contactId);
+        $('#message_modal').modal('show');
+    });
+});
+
+
+
+
+
+
+

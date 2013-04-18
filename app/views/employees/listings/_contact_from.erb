@@ -1,0 +1,21 @@
+<div class="modal fade" id="message_modal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">&times;</a>
+    <h3><%= I18n.t("listings.contact_form.title") %></h3>
+  </div>
+  <div class="modal-body">
+    <%= render 'layouts/messages' %>
+    <p><%= I18n.t("listings.contact_form.tip1") %></p>
+    <div>
+      <%= simple_form_for :contact_message, :url => "employees/send_message" do |f| %>
+          <%= f.input :contact_id, :as => :hidden  %>
+          <%= f.input :read, :value => true, :as => :hidden  %>
+          <%= f.input :from_email, :as => :email %>
+          <%= f.input :body, :as => :text, :input_html => { :cols => 50, :rows => 5 } %>
+          <%= f.submit I18n.t('listings.contact_form.send'), :class => 'btn btn-primary' %>
+      <% end %>
+    </div>
+  </div>
+  <div class="modal-footer">
+  </div>
+</div>

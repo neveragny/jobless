@@ -18,11 +18,15 @@ body h2 {
   font-weight: 100;
 }
 
+#message_modal {
+  display: none;
+}
+
 body .navbar-inner {
   min-height: 40px;
 }
 
-li.my-listins a{
+li.my-listins a, li.my-messages a{
   color: #3a87ad !important;
 }
 

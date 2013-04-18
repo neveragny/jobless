@@ -2,7 +2,8 @@
 <ul class="nav user-menu underline">
   <li><%= link_to I18n.t("employee.all_listings"), listings_path %></li>
   <%- if current_employee %>
-      <li class="my-listins"><%= link_to I18n.t("employee.my_listings"), listings_path %></li>
+      <li class="my-listins"><%= link_to I18n.t("employee.my_listings"), my_listings_path %></li>
+      <li class="my-messages"><%= link_to I18n.t("employee.my_messages"), messages_path %></li>
   <%- end  %>
 </ul>
 <ul class="nav user-links">

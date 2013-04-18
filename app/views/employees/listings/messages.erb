@@ -1,0 +1,32 @@
+<div id="messages-container">
+
+  <div id="">
+    <table class="table table-hover table-condensed">
+      <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      </thead>
+      <% @messages.each do |message| %>
+          <tr class="<%= message.read? ? "warning" : "" %>">
+            <td>
+              <%= message.from_email %>
+            </td>
+            <td>
+              <%= message.body %>
+            </td>
+            <td>
+              <%= message.read?? (
+              link_to I18n.t("listings.mark_as_read"),
+                      mark_as_read_path(:message_id => message.id),
+                      :class => :"mark_as_read",
+                      :remote => true) : ("")  %>
+            </td>
+          </tr>
+      <%- end %>
+    </table>
+  </div>
+
+</div>

@@ -9,15 +9,8 @@
               <span>Я заинтересован ТОЛЬКО в вакансии <b><%= l.future_occupation %></b> с зарплатой как минимум <b><%= l.future_salary %> <%#=currency l, :future %> </b> . </span>
               <span class="label label-warning"><%#= worktype l %></span>
             </td>
-            <td class="contact">
-              <div class="contact-link">
-                <%#= link_to contact_form_listings_path(:id => l.id),
-                            :class => :"btn btn-primary",
-                            :rel => "facebox", :remote => true do %>
-                    <!--<i class="icon-user icon-white"></i>-->
-                    <!--‌cвязаться-->
-                <%# end %>
-              </div>
+            <td>
+                <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id=> "contact-link", :data => {:contact => l.employee_id} %>
             </td>
             <td class="datein">
               <div class="date"><%= time_ago l.created_at %></div>
@@ -27,3 +20,5 @@
       </tbody>
     </table>
 <% end %>
+
+<%= render :partial => 'contact_from' %>

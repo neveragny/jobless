@@ -10,4 +10,5 @@ class Employee < ActiveRecord::Base
   # attr_accessible :title, :body
 
   has_many :listings, :dependent => :destroy
+  has_many :messages, :dependent => :destroy
 end
