@@ -75,4 +75,12 @@ module ApplicationHelper
     end
   end
 
+  def message_sent_time(created_at)
+    if created_at.day == Time.now.day && created_at.month == Time.now.month
+      created_at.strftime("%H:%M")
+    else
+      "#{created_at.strftime("%B %d")}"
+    end
+  end
+
 end

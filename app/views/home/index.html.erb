@@ -5,10 +5,21 @@
   <div class="content">
     <div class="row">
       <div class="span6">
-        <p class="title1"><%= I18n.t("text.recent_listings") %></p>
+        <p class="title1 underline"><%= I18n.t("text.recent_listings") %></p>
+        <span class="last-listings">
+        <%- @last_listings.each do |listing|  %>
+            <div class="one-last-item">
+              Я <b><%= listing.current_occupation %></b>, и я получаю <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
+              <b><%= listing.city %></b><br>
+              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
+              <span class="label label-warning"><%#= worktype l %></span>
+            </div>
+        <%- end %>
+        </span>
       </div>
       <div class="span6">
-        <p class="title1"><%= I18n.t("text.recent_jobs") %></p>
+        <p class="title1 underline"><%= I18n.t("text.recent_jobs") %></p>
+        <span class="last-listings">Здесь пока пусто</span>
       </div>
     </div>
     <footer>

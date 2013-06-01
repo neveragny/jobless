@@ -81,15 +81,29 @@ ru:
             email:
               blank: "не указан"
               taken: "уже занят"
+              invalid: "указан не верно!"
             password:
               blank: "не указан"
               too_short: "слишком короткий"
+              confirmation: "не совпадает"
         message:
           attributes:
             from_email:
               blank: "не указан"
             body:
               blank: "пустой"
+        listing:
+          attributes:
+            current_occupation:
+              blank: "не указана"
+            future_occupation:
+              blank: "не указана"
+            current_salary:
+              blank: "не указана"
+            future_salary:
+              blank: "не указана"
+            city:
+              blank: "не указан"
 
   less_than_x_minutes: 'только что'
   less_than_one_minutes: 'только что'

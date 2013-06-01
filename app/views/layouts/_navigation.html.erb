@@ -2,8 +2,12 @@
 <ul class="nav user-menu underline">
   <li><%= link_to I18n.t("employee.all_listings"), listings_path %></li>
   <%- if current_employee %>
-      <li class="my-listins"><%= link_to I18n.t("employee.my_listings"), my_listings_path %></li>
-      <li class="my-messages"><%= link_to I18n.t("employee.my_messages"), messages_path %></li>
+      <li class="my-listins"><%= link_to "#{I18n.t("employee.my_listings")}", my_listings_path %></li>
+      <%- if current_employee.unread_messages.count == 0  %>
+          <li class="my-messages"><%= link_to I18n.t("employee.my_messages"), messages_path %></li>
+      <%else %>
+          <li class="my-messages"><%= link_to "#{I18n.t('employee.my_messages')}(#{current_employee.unread_messages.count})", messages_path %></li>
+      <%- end %>
   <%- end  %>
 </ul>
 <ul class="nav user-links">

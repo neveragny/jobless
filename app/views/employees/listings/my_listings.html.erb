@@ -1,7 +1,19 @@
-<h3><%= I18n.t("listings.my_current_listings") %></h3>
+<h3 class="title1"><%= I18n.t("listings.my_current_listings") %></h3>
 <% unless @listings.nil? %>
-    <% @listings.each do |listing| %>
-        <p><%= listing.current_occupation %></p>
-        <p><%= listing.future_occupation %></p>
-    <% end %>
+    <table class="table table-striped">
+      <tbody>
+      <% @listings.each do |listing| %>
+          <tr>
+            <td>Я <b><%= listing.current_occupation %></b>, и я получаю <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
+              <b><%= listing.city %></b><br>
+              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
+              <span class="label label-warning"><%#= worktype l %></span>
+            </td>
+            <td class="datein">
+              <div class="date"><%= time_ago listing.created_at %></div>
+            </td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
 <% end %>

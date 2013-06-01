@@ -35,10 +35,10 @@ class EmployeesController < ApplicationController
   end
 
   def mark_as_read
-    message = current_user.messages.where(:id => params[:message_id]).first
-    Rails.logger.debug message.from_email
-
-    Rails.logger.debug request.xhr?
+    @message = current_user.messages.where(:id => params[:message_id]).first
+    Rails.logger.debug @message
+    @message.update_attribute(:read, false)
+    @message.save
     render :nothing => true
   end
 

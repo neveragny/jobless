@@ -2,18 +2,18 @@
 <% unless @listings.nil? %>
     <table class="table table-striped">
       <tbody>
-      <% @listings.each do |l| %>
+      <% @listings.each do |listing| %>
           <tr>
-            <td>Я <b><%= l.current_occupation %></b>, и я получаю <b><%= l.current_salary %> <span><%#= currency l, :current%></span></b>.Город
-              <b><%= l.city %></b><br>
-              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= l.future_occupation %></b> с зарплатой как минимум <b><%= l.future_salary %> <%#=currency l, :future %> </b> . </span>
+            <td>Я <b><%= listing.current_occupation %></b>, и я получаю <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
+              <b><%= listing.city %></b><br>
+              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
               <span class="label label-warning"><%#= worktype l %></span>
             </td>
             <td>
-                <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id=> "contact-link", :data => {:contact => l.employee_id} %>
+                <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id=> "contact-link", :data => {:contact => listing.employee_id} %>
             </td>
             <td class="datein">
-              <div class="date"><%= time_ago l.created_at %></div>
+              <div class="date"><%= time_ago listing.created_at %></div>
             </td>
           </tr>
       <% end %>

@@ -11,4 +11,8 @@ class Employee < ActiveRecord::Base
 
   has_many :listings, :dependent => :destroy
   has_many :messages, :dependent => :destroy
+
+  def unread_messages
+    messages.where("read = ?", true)
+  end
 end

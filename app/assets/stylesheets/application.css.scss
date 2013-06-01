@@ -64,3 +64,37 @@ nav.navbar-inner div.container ul.nav li.nav-email a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 16px;
 }
+
+.alert {
+  display: inline;
+  float: right;
+}
+
+
+//LAST N LISTINGS
+
+.last-listings {
+  font-size: 13px;
+  //font-style: italic;
+}
+.one-last-item {
+  border-bottom: 2px solid #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title1{
+  font-size: 17px;
+  color: coral;
+}
+.underline {
+  text-decoration: underline;
+}
+
+
+
+// MESSAGES
+.message-body {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}

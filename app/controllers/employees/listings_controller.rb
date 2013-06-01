@@ -15,19 +15,25 @@ class Employees::ListingsController < EmployeesController
       @listing = current_employee.listings.build( params[:listing])
       if @listing.save
         flash[:notice] = I18n.t('listings.created')
+      else
+        flash[:error] = @listing.errors.full_messages.first
       end
       redirect_to root_url
     else
       @employee = Employee.new(:email => params[:listing][:email], :password => "p@ssword", :password_confirmation => "p@ssword" )
       if @employee.save
-        Rails.logger.debug params
+        #Rails.logger.debug params
         @listing = @employee.listings.build(params[:listing])
         if @listing.save
           flash[:notice] = I18n.t('listings.created')
           sign_in @employee
+        else
+          flash[:error] = @listing.errors.full_messages.first
         end
       else
-        flash[:notice] = @employee.errors.full_messages.first
+        if @employee
+          flash[:error] = @employee.errors.full_messages.first
+        end
       end
       redirect_to root_url
     end
