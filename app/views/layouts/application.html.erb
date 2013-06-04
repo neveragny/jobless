@@ -6,31 +6,57 @@
   <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Jobless" %>">
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <meta name='yandex-verification' content='41488836b73dbabc' />
   <%= csrf_meta_tags %>
   <%= yield(:head) %>
 </head>
 <body class="<%= controller_name %> <%= action_name %>">
-<%= render :partial => "shared/flash_mesages", :locals => { :flash => flash } %>
+<div id="wrapper">
+  <%= render :partial => "shared/flash_mesages", :locals => {:flash => flash} %>
 
-<div class="navbar navbar-fixed-top">
-  <nav class="navbar-inner">
+  <div class="navbar navbar-fixed-top">
+    <nav class="navbar-inner">
+      <div class="container">
+        <%= render 'layouts/navigation' %>
+      </div>
+    </nav>
+  </div>
+  <div id="main" role="main">
     <div class="container">
-      <%= render 'layouts/navigation' %>
-    </div>
-  </nav>
-</div>
-<div id="main" role="main">
-  <div class="container">
-    <div class="content">
-      <div class="row">
-        <div class="span12">
-          <%= render 'layouts/messages' %>
-          <%= yield %>
+      <div class="content">
+        <div class="row">
+          <div class="span12">
+            <%= render 'layouts/messages' %>
+            <%= yield %>
+          </div>
         </div>
       </div>
     </div>
+    <!--! end of .container -->
   </div>
-  <!--! end of .container -->
-</div> <!--! end of #main -->
+  <!--! end of #main -->
+  <div id="push"></div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <!--<div class="span2"><div class="nfooter-title">Работа в Украине</div></div>-->
+      <div class="span2">
+        <!--<div class="nfooter-title">Jobless.com.ua</div>-->
+        <ul class="unstyled">
+          <li><a class="" href="/#"><i class="icon-home"></i> О проекте</a></li>
+          <li><a class="" href="/guestbook"><i class="icon-book"></i> Книга отзывов</a></li>
+          <li><a class="" href="http://vk.com/jobless_com_ua"><i class="icon-vk"></i> Мы ВКонтакте</a></li>
+        </ul>
+      </div>
+      <div class="span4">
+        <%= render :partial => "shared/metrika", :locals => {:flash => flash} %>
+      </div>
+      <div class="span4"></div>
+      <div class="span4"></div>
+      <div class="span4"></div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

@@ -30,6 +30,79 @@ li.my-listins a, li.my-messages a{
   color: #3a87ad !important;
 }
 
+html, body {
+  height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -80px; /* Отрицательное значение высоты footer'а */
+}
+#footer, #push {
+  height: 80px; /* .push и .footer должны быть одинаковой высоты */
+  clear: both;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  //background-color: #f0f0f0;
+  //-webkit-box-shadow: 0 7px 10px #ddd inset;
+  //-moz-box-shadow: 0 7px 10px #ddd inset;
+  //box-shadow: 0 7px 10px #ddd inset;
+
+  color: #fff;
+  min-width: 1000px;
+}
+
+#footer .container {
+  border-top: 1px solid #CCCCCC;
+  padding-top: 20px;
+}
+
+/* Custom page CSS
+     -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding-top: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.container .credit {
+  margin: 20px 0;
+
+}
+
+.nfooter-title {
+  padding: 0 0 6px 0;
+  border-bottom: 1px dotted #aaa;
+  color: #444;
+  font-size: 13px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 11px;
+}
+
+.nfooter-list {
+  display: inline-block;
+  zoom: 1;
+  width: 49%;
+  padding: 12px 0 0 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.nfooter-list li {
+  padding: 2px 10px 2px 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
 .content {
   background-color: #ffffff;
   padding: 20px;
@@ -97,4 +170,19 @@ nav.navbar-inner div.container ul.nav li.nav-email a {
 .message-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+//MISC
+
+.icon-vk:before {
+  content: "B";
+  font-family: sans-serif;
+  font-weight: bold;
 }
