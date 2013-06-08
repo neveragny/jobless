@@ -1,32 +1,72 @@
-<%= link_to "Jobless", root_path, :class => 'brand' %>
-<ul class="nav user-menu underline">
-  <li><%= link_to I18n.t("employee.all_listings"), listings_path %></li>
-  <%- if current_employee %>
-      <li class="my-listins"><%= link_to "#{I18n.t("employee.my_listings")}", my_listings_path %></li>
-      <%- if current_employee.unread_messages.count == 0  %>
-          <li class="my-messages"><%= link_to I18n.t("employee.my_messages"), messages_path %></li>
-      <%else %>
-          <li class="my-messages"><%= link_to "#{I18n.t('employee.my_messages')}(#{current_employee.unread_messages.count})", messages_path %></li>
+<div id="apple-header" role="navigation" class="store enhanced globalheader-loaded" aria-label="Apple">
+  <ul class="links">
+    <li>
+      <%= link_to root_path do %>
+        <span class="brand">Jobless</span>
       <%- end %>
-  <%- end  %>
-</ul>
-<ul class="nav user-links">
-  <% if user_signed_in? %>
-      <li class="nav-email">
-        <%= link_to current_user.email, edit_employee_registration_path %>
-      </li>
-  <% else %>
-      <li>
-        <%= link_to I18n.t("common.signup"), new_employee_registration_path %>
-      </li>
-  <% end %>
-  <% if user_signed_in? %>
-      <li>
-      <%= link_to I18n.t("common.logout"), destroy_employee_session_path, :method=>'delete' %>
-      </li>
-<% else %>
-      <li>
-      <%= link_to I18n.t("common.login"), new_employee_session_path %>
-      </li>
-<% end %>
+    </li>
+    <li><%= link_to listings_path do %>
+            <span><%=  I18n.t("employee.all_listings") %></span>
+        <%- end %>
+    </li>
+    <li><a href="#"><span>Все вакансии</span></a> </li>
+
+    <%- if current_employee %>
+        <li>
+          <%= link_to my_listings_path do %>
+            <span><%= "#{I18n.t("employee.my_listings")}" %></span>
+          <%- end %>
+        </li>
+
+        <%- if current_employee.unread_messages.count == 0 %>
+            <li>
+                <%= link_to  messages_path do %>
+                    <span><%= I18n.t("employee.my_messages") %></span>
+                <%- end %>
+            </li>
+        <% else %>
+            <li>
+              <%= link_to messages_path do %>
+                <span><%= "#{I18n.t('employee.my_messages')}(#{current_employee.unread_messages.count})" %></span>
+              <%- end %>
+            </li>
+        <%- end %>
+    <%- end %>
+
+  </ul>
+
+</div>
+<div class="masthead clearfix" id="coherent_id_118">
+    <div class="masthead-title">
+
+    </div>
+
+  <div role="navigation" aria-label="User Tools" class="user-navigation" id="guide_wrap">
+        <ul id="user-links" role="menubar" class="utilitynav">
+          <% if user_signed_in? %>
+              <li id="u_account" role="presentation">
+                <%= link_to current_user.email, edit_employee_registration_path %>
+              </li>
+              <li id="u_cart" role="presentation">
+                <%= link_to I18n.t("common.logout"), destroy_employee_session_path, :method => 'delete' %>
+              </li>
+          <% else %>
+              <li id="u_account" role="presentation">
+                <%= link_to I18n.t("common.signup"), new_employee_registration_path %>
+              </li>
+              <li id="u_cart" role="presentation" class="cart">
+                <%= link_to I18n.t("common.login"), new_employee_session_path %>
+              </li>
+          <% end %>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+<ul class="nav user-menu underline">
+
+
 </ul>

@@ -1,14 +1,30 @@
-<h2><%= I18n.t("employee.edit_account") %> <%= current_user.email %></h2>
-<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => 'form-vertical' }) do |f| %>
-  <%= f.error_notification %>
-  <%= display_base_errors resource %>
-  <%#= f.input :name, :autofocus => true %>
-  <%= f.input :email, :required => true %>
-  <%= f.input :password, :autocomplete => "off", :hint => I18n.t("common.empty_passwd_hint"), :required => false %>
-  <%= f.input :password_confirmation, :required => false %>
-  <%= f.input :current_password, :hint => I18n.t("common.password_hint"), :required => true %>
-  <%= f.button :submit, I18n.t("common.save_changes"), :class => 'btn-primary' %>
-<% end %>
-<h3><%= I18n.t("common.cancel_account_title") %></h3>
-<p><%= I18n.t("common.unhappy") %> <%= link_to I18n.t("common.cancel_account_link"), registration_path(resource_name), :data => { :confirm => I18n.t("common.rusure") }, :method => :delete %>.</p>
-<%= link_to I18n.t("common.back"), :back %>
+
+
+
+
+
+<div class="bento">
+  <div class="row">
+    <div id="signup-page-header" class="header clearfix" style="">
+      <h2><%= I18n.t("employee.edit_account") %> <%= current_user.email %></h2>
+    </div>
+
+    <div id="signup-content" class="content clearfix">
+
+      <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => 'form-vertical' }) do |f| %>
+          <%= f.error_notification %>
+          <%= display_base_errors resource %>
+          <%#= f.input :name, :autofocus => true %>
+          <%= f.input :email, :required => true %>
+          <%= f.input :password, :autocomplete => "off", :hint => I18n.t("common.empty_passwd_hint"), :required => false %>
+          <%= f.input :password_confirmation, :required => false %>
+          <%= f.input :current_password, :hint => I18n.t("common.password_hint"), :required => true %>
+          <%= f.button :submit, I18n.t("common.save_changes"), :class => 'btn-primary' %>
+      <% end %>
+      <h3><%= I18n.t("common.cancel_account_title") %></h3>
+      <p><%= I18n.t("common.unhappy") %> <%= link_to I18n.t("common.cancel_account_link"), registration_path(resource_name), :data => { :confirm => I18n.t("common.rusure") }, :method => :delete %>.</p>
+      <%= link_to I18n.t("common.back"), :back %>
+
+    </div>
+  </div>
+</div>

@@ -1,24 +1,35 @@
-<h3 class="title1"><%= I18n.t("text.all_listings") %></h3>
-<% unless @listings.nil? %>
-    <table class="table table-striped">
-      <tbody>
-      <% @listings.each do |listing| %>
-          <tr>
-            <td>Я <b><%= listing.current_occupation %></b>, и я получаю <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
-              <b><%= listing.city %></b><br>
-              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
-              <span class="label label-warning"><%#= worktype l %></span>
-            </td>
-            <td>
-                <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id=> "contact-link", :data => {:contact => listing.employee_id} %>
-            </td>
-            <td class="datein">
-              <div class="date"><%= time_ago listing.created_at %></div>
-            </td>
-          </tr>
-      <% end %>
-      </tbody>
-    </table>
-<% end %>
+<div class="bento ns-buttons lastings">
+  <div class="row">
+    <div id="" class="content-header header clearfix" style="">
+      <h2 class="title1"><%= I18n.t("text.all_listings") %></h2>
+    </div>
+
+    <div id="page-content" class="listings-all content clearfix">
+    <% unless @listings.nil? %>
+        <table class="table table-striped">
+          <tbody>
+          <% @listings.each do |listing| %>
+              <tr>
+                <td>Я <b><%= listing.current_occupation %></b>, и я получаю
+                  <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
+                  <b><%= listing.city %></b><br>
+                  <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
+                  <span class="label label-warning"><%#= worktype l %></span>
+                </td>
+                <td>
+                  <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id => "contact-link", :data => {:contact => listing.employee_id} %>
+                </td>
+                <td class="datein">
+                  <div class="date"><%= listing.created_at %></div>
+                  <!--time_ago-->
+                </td>
+              </tr>
+          <% end %>
+          </tbody>
+        </table>
+    <% end %>
+    </div>
+  </div>
+</div>
 
 <%= render :partial => 'contact_from' %>

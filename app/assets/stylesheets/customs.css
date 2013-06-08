@@ -1,0 +1,184 @@
+.odd {
+    background: #efefef;
+}
+
+.brand {
+    text-shadow: 0px 1px 0px white;
+    text-transform: uppercase;
+}
+
+form#new_listing {
+    padding: 20px 30px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4em;
+
+}
+
+form#new_listing input {
+    text-align:center;
+}
+
+form#new_listing div.form-row {
+    padding: 8px 0;
+}
+
+input[placeholder] { text-overflow: ellipsis; }
+::-moz-placeholder { text-overflow: ellipsis; } /* firefox 19+ */
+input:-moz-placeholder { text-overflow: ellipsis; }
+
+
+div.control-group {
+    display: inline-block;
+}
+
+div.half-row {
+    float: left;
+    height: 100%;
+    padding: 10px 5px;
+    margin-bottom: -17px;
+    padding-bottom: 25px;
+
+}
+
+div.half-row.left1 {
+    border-right: 1px solid #DADADA;
+    width: 50%;
+    height: 100%;
+}
+
+.bento h3 {
+    display: inline;
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    vertical-align: top;
+}
+
+
+.bento h2 {
+    display: inline;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    vertical-align: top;
+}
+
+.bento #account-page-header, .bento #signup-page-header {
+    color: #000;
+    background: 0;
+    padding: 15px 14px;
+    font-size: 24px;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 15px;
+}
+
+.content-header {
+    color: #000;
+    background: 0;
+    padding: 15px 14px;
+    font-size: 24px;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 15px;
+}
+
+.bento #account-content, .bento #signup-content {
+    width: 400px;
+    /*height: 250px;*/
+}
+
+.bento #account-content form, .bento #signup-content form{
+    padding: 15px 14px;
+}
+
+.bento #account-content form label, .bento #signup-content form label{
+    display: inline;
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    vertical-align: top;
+}
+
+.bento #account-content form input,.bento #signup-content form input{
+    display: inline;
+    margin: 7px 0;
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 1.4em;
+    vertical-align: top;
+}
+
+.bento #account-content .form-row.submit, .bento #signup-content .form-row.submit {
+    float: right;
+    display: inline;
+}
+
+#page-content {
+    /*padding: 20px 15px;*/
+}
+
+#page-content table {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+div.soft-divider {
+    border-bottom: 1px solid #ebebeb;
+    width: 87%;
+    margin-left: -1%;
+}
+
+div.one-last-item {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+   /*LISTINGS*/
+.listings-all table td {
+    font-size: 12px;
+}
+
+.listings-all table td {
+    padding-bottom: 7px;
+    padding-left: 20px;
+
+}
+
+
+
+/*POPUPS*/
+
+.hidden {
+    display: none;
+}
+
+.layer-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    opacity: .15;
+    filter: alpha(opacity=15);
+    -moz-opacity: .15;
+    z-index: 101;
+    display: none;
+}
+
+#popup.set-password {
+    display: none;
+    position: fixed;
+    width: 450px;
+    padding: 0px;
+    z-index: 102;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+
+
+

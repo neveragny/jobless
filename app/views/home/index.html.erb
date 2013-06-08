@@ -1,33 +1,29 @@
-<%= render 'layouts/employees/new_listing' %>
+<div class="bento ns-buttons">
+  <div class="row">
+    <%= render 'layouts/employees/new_listing' %>
 
-<div style="height: 50px;"></div>
-<div class="container">
-  <div class="content">
-    <div class="row">
-      <div class="span6">
-        <p class="title1 underline"><%= I18n.t("text.recent_listings") %></p>
-        <span class="last-listings">
-        <%- @last_listings.each do |listing|  %>
-            <div class="one-last-item">
-              Я <b><%= listing.current_occupation %></b>, и я получаю <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
-              <b><%= listing.city %></b><br>
-              <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
-              <span class="label label-warning"><%#= worktype l %></span>
-            </div>
-        <%- end %>
-        </span>
-      </div>
-      <div class="span6">
-        <p class="title1 underline"><%= I18n.t("text.recent_jobs") %></p>
-        <span class="last-listings">Здесь пока пусто</span>
-      </div>
-    </div>
-    <footer>
-    </footer>
   </div>
 </div>
-
-<% if user_signed_in? && current_user.sign_in_count == 1 %>
-    <%= render 'devise/registrations/set_password' %>
-<% end %>
-
+<div class="bento ns-buttons lastings">
+  <div class="row">
+    <div class="half-row left1">
+      <h2><%= I18n.t("text.recent_listings") %></h2>
+        <span class="last-listings">
+            <%- @last_listings.each do |listing| %>
+                <div class="one-last-item">
+                  Я <b><%= listing.current_occupation %></b>, и я получаю
+                  <b><%= listing.current_salary %> <span><%#= currency l, :current%></span></b>.Город
+                  <b><%= listing.city %></b><br>
+                  <span>Я заинтересован ТОЛЬКО в вакансии <b><%= listing.future_occupation %></b> с зарплатой как минимум <b><%= listing.future_salary %> <%#=currency l, :future %> </b> . </span>
+                  <!--<span class="label label-warning"><%#= worktype l %></span>-->
+                  <div class="soft-divider"></div>
+                </div>
+            <%- end %>
+            </span>
+    </div>
+    <div class="half-row right1">
+      <h2><%= I18n.t("text.recent_jobs") %></h2><p></p>
+      <span class="last-listings">Здесь пока пусто</span>
+    </div>
+  </div>
+</div>

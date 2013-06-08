@@ -15,12 +15,12 @@ ru:
     mark_as_read: "отметить как прочитаное"
     input:
       placeholder:
-        current_occupation: "          укажите должность"
-        current_salary: "        например, 5000"
-        future_occupation: " укажите желаемую должность"
-        future_salary: "      например, 7000"
-        email: "     укажите ваш email"
-        city: "        укажите город"
+        current_occupation: "укажите должность"
+        current_salary: "например, 5000"
+        future_occupation: "укажите желаемую должность"
+        future_salary: "например, 7000"
+        email: "укажите ваш email"
+        city: "укажите город"
     contact_form:
       title: "Напишите сообщение"
       tip1: ""
@@ -38,7 +38,7 @@ ru:
     back: "назад"
     login: "войти"
     logout: "выйти"
-    signup: "зарегистрироватся"
+    signup: "зарегистрироваться"
     cancel_account_title: "Удалить аккаунт"
     cancel_account_link: "удалить мой аккаунт и все данные"
     password_hint: "Нам нужен ваш пароль что бы подтвердить изменения"
@@ -46,6 +46,8 @@ ru:
     rusure: "Вы уверены?"
     unhappy: "Не довольны?"
     forgot_password: "Забыли пароль?"
+    contact_us_by_email: "Обратная связь"
+    please_signin: "Пожалуйста авторизируйтесь"
   text:
     recent_listings: "Последние заявки"
     recent_jobs: "Последние вакансии"

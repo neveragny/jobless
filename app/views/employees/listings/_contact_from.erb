@@ -1,11 +1,15 @@
-<div class="modal fade" id="message_modal">
-  <div class="modal-header">
+<div id="opaco" class="layer-overlay"></div>
+
+<div id="popup" class="set-password bento">
+  <div id="account-page-header" class="header clearfix" style="">
+  <h2><%= I18n.t("listings.contact_form.title") %></h2>
     <a class="close" data-dismiss="modal">&times;</a>
-    <h3><%= I18n.t("listings.contact_form.title") %></h3>
   </div>
-  <div class="modal-body">
-    <%= render 'layouts/messages' %>
-    <p><%= I18n.t("listings.contact_form.tip1") %></p>
+
+
+  <div id="account-content" class="content clearfix">
+    <%#= render 'layouts/messages' %>
+    <div><%= I18n.t("listings.contact_form.tip1") %></div>
     <div>
       <%= simple_form_for :contact_message, :url => "employees/send_message" do |f| %>
           <%= f.input :contact_id, :as => :hidden  %>
@@ -19,3 +23,13 @@
   <div class="modal-footer">
   </div>
 </div>
+
+
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+//        $("#opaco").show();
+//        $('#popup').alignCenter();
+//        $("#popup").fadeIn(300);
+    });
+    //    $('#password_modal').modal('hide');
+</script>

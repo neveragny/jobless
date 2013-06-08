@@ -1,10 +1,9 @@
 <% flash.each do |name, msg| %>
   <% if msg.is_a?(String) %>
-  <script type="text/javascript">
-  	$('.show-'+ <%= name == :notice ? "success" : "error" %>).click(function (e) {
-        $('.top-right').notify({ message: { text: <%= msg %> }, type: <%= name == :notice ? "success" : "error" %> }).show();
-      });
-  </script>
+        <script type="text/javascript">
+            console.log("<%= name == :notice ? "success" : "error" %>");
+            Alertify.log.<%= name == :notice ? "info" : "error" %>("<%= msg %>", 2000);
+        </script>
   <% end %>
 <% end %>
 
@@ -14,3 +13,6 @@
       <a class="close" data-dismiss="alert">&#215;</a>
       <%#= content_tag :div, msg, :id => "flash_#{name}" %>
     </div> -->
+
+
+

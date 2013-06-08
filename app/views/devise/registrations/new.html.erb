@@ -1,11 +1,21 @@
-<h2><%= I18n.t("employee.registration") %></h2>
-<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => {:class => 'form-vertical' }) do |f| %>
-  <%= f.error_notification %>
-  <%= display_base_errors resource %>
-  <%#= f.input :name, :autofocus => true %>
-  <%= f.input :email, :required => true %>
-  <%= f.input :password, :required => true %>
-  <%= f.input :password_confirmation, :required => true %>
-  <%= f.button :submit, I18n.t("common.ready"), :class => 'btn-primary' %>
-<% end %>
-<%= render "devise/shared/links" %>
+<div class="bento">
+  <div class="row">
+    <div id="signup-page-header" class="header clearfix" style="">
+      <h2><%= I18n.t("employee.registration") %></h2>
+    </div>
+
+    <div id="signup-content" class="content clearfix">
+
+        <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => {:class => 'form-vertical' }) do |f| %>
+          <%= f.error_notification %>
+          <%= display_base_errors resource %>
+          <%#= f.input :name, :autofocus => true %>
+          <%= f.input :email, :required => true %>
+          <%= f.input :password, :required => true %>
+          <%= f.input :password_confirmation, :required => true %>
+          <%= f.button :submit, I18n.t("common.ready"), :class => 'btn-primary' %>
+        <% end %>
+
+    </div>
+  </div>
+</div>

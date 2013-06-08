@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.13'
-#gem 'sqlite3'
+gem 'rails'
 gem 'pg'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -19,6 +18,9 @@ gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
 gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "devise", ">= 2.2.3"
+#gem 'omniauth'
+#gem 'omniauth-facebook'
+#gem 'omniauth-vkontakte'
 gem "cancan", ">= 1.6.9"
 gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.1.0"

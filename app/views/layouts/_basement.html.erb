@@ -1,0 +1,26 @@
+<div role="conteninfo" class="apple-footer clearfix" id="apple-footer">
+  <footer>
+    <div id="fineprint">
+      <div class="coda">
+        <ul class="store">
+          <li class="apple-store">
+            <a href="/" >
+              Jobless Ukraine
+            </a>
+          </li>
+        </ul>
+        <ul class="sosumi">
+          <li><a class="" href="/#"><i class="icon-home"></i> О проекте</a></li>
+          <li><a class="" href="/guestbook"><i class="icon-book"></i> Книга отзывов</a></li>
+          <li><a class="" href="http://vk.com/jobless_com_ua"><i class="icon-vk"></i> Мы ВКонтакте</a></li>
+          <li><%= render :partial => "shared/metrika", :locals => {:flash => flash} %></li>
+        </ul>
+
+        <p class="order-by-phone">
+          <a href="mailto:support@jobless.com.ua?Subject=Request%20from%20the%20site"><%= I18n.t("common.contact_us_by_email") %></a>
+        </p>
+
+      </div>
+    </div>
+  </footer>
+</div>

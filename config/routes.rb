@@ -1,8 +1,12 @@
 Jobless::Application.routes.draw do
 
+
   root to: 'home#index'
 
   match '/guestbook', :to => redirect('guestbook.html')
+
+  devise_for :employers, controllers: { omniauth_callbacks: 'employers/omniauth_callbacks' }
+  resources :employers, :only => [:index, :destroy]
 
   devise_for :employees, controllers: { sessions: 'employees/sessions' }
   post 'employees/set_password' => 'employees#set_password'
@@ -23,7 +27,6 @@ Jobless::Application.routes.draw do
     end
   end
 
-  devise_for :employers, :controllers => { registrations: "employers/registrations", sessions: 'employers/sessions' }
 
 
 

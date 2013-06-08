@@ -12,17 +12,46 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require twitter/bootstrap
-//= require bootstrap
-//= require_tree .
+//= require jquery-ui
+//= require alertify
+
+
+$.fn.alignCenter = function () {
+    var left = (screen.width / 2) - ($(this).width() / 2);
+    var top = (screen.height / 2) - ($(this).height() / 2);
+    return $(this).css({'left': left, 'top': top - 100});
+};
 
 $(document).ready(function () {
-    $('.contact-link').click(function(){
+    $('.contact-link').click(function () {
         var contactId = $(this).data("contact");
         $("#contact_message_contact_id").val(contactId);
-        $('#message_modal').modal('show');
+        $("#opaco").show();
+        $('#popup').alignCenter();
+        $("#popup").fadeIn(300);
     });
+
+    $('a.close').click(function(){
+        $("#popup").fadeOut(300);
+        $("#opaco").hide();
+        clear_form();
+    });
+
+    $("div.listings-all table tr:odd").addClass("odd")
+
 });
+
+clear_form = function(){
+
+    if ($("form.contact_message")){
+        $("form.contact_message input#contact_message_from_email")[0].value = "";
+        $("form.contact_message textarea#contact_message_body")[0].value = ""
+    }
+}
+
+
+
+
 
 
 
