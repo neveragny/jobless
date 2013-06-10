@@ -7,7 +7,7 @@
     text-transform: uppercase;
 }
 
-form#new_listing {
+form#new_listing, form.edit_listing {
     padding: 20px 30px;
     color: #666;
     font-size: 14px;
@@ -15,11 +15,11 @@ form#new_listing {
 
 }
 
-form#new_listing input {
+form#new_listing input,form.edit_listing input {
     text-align:center;
 }
 
-form#new_listing div.form-row {
+form#new_listing div.form-row, form.edit_listing div.form-row {
     padding: 8px 0;
 }
 

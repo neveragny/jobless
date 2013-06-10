@@ -1,0 +1,30 @@
+<%= render :partial => "layouts/messages" %>
+<div class="bento ns-buttons">
+  <div class="row">
+    <%= simple_form_for @listing do |f| %>
+        <div class="inputs">
+          <div class="form-row">
+            Моя текущая должность <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %>, и я получаю
+            <%= f.input :current_salary, label:false, placeholder:I18n.t("listings.input.placeholder.current_salary")  %>  в месяц.
+            <p></p>
+          </div>
+          <div class="form-row">
+            Я заинтересован ТОЛЬКО в вакансии: <%= f.input :future_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.future_occupation") %>
+            с зарплатой как минимум: <%= f.input :future_salary, label:false, placeholder:I18n.t("listings.input.placeholder.future_salary") %>
+            <p></p>
+          </div>
+          <div class="form-row">
+            Город <%= f.input :city, label:false, placeholder:I18n.t("listings.input.placeholder.city") %>
+            <p></p>
+          </div>
+          <div class="form-row">
+            <% unless employee_signed_in?  %>
+                Мой контактный адрес: <%= f.input :email, label:false, placeholder:I18n.t("listings.input.placeholder.email") %>
+                <i> (мы спрячем ваш адрес)</i>
+            <% end %>
+          </div>
+        </div>
+        <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>

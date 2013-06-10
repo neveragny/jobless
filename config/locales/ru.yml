@@ -65,6 +65,13 @@ ru:
     submit:
       listing:
         create: "Добавить заявку"
+  helpers:
+    submit:
+      listing:
+        update: "Обновить заявку"
+  flash:
+    notice:
+      listing_has_been_updated: "Заявка была обновлена"
   activerecord:
     attributes:
       listing:
@@ -75,6 +82,9 @@ ru:
         future_salary: "Желаема зарплата"
       employee:
         password: "Пароль"
+      message:
+        from_email: "Ваш емейл"
+        body: "Сообщение"
 
     errors:
       models:

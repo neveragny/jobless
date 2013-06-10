@@ -1,9 +1,8 @@
 class Employees::ListingsController < EmployeesController
-  before_filter :authenticate_user!, :only => [:my_listings]
+  before_filter :authenticate_user!, :only => [:my_listings, :edit]
 
   def index
     @listings = Listing.all
-
   end
 
   def my_listings
@@ -36,6 +35,24 @@ class Employees::ListingsController < EmployeesController
         end
       end
       redirect_to root_url
+    end
+  end
+
+  def edit
+    @listing = current_user.listings.find(params[:id])
+    #TODO redirect to my_listings_path if nil (now throwing exception)
+    redirect_to my_listings_path, :error => "An error has been occured" if @listing.nil?
+    #TODO translate errors, fix messaging
+
+  end
+
+  def update
+    @listing = current_user.listings.find(params[:id])
+    if @listing.update_attributes(params[:listing])
+      redirect_to my_listings_path, :notice => I18n.t("flash.notice.listing_has_been_updated")
+    else
+      redirect_to edit_listing_path(@listing), :error => "an error has been occured"
+      #TODO sort out with validation errors to be shown after failed update
     end
   end
 
