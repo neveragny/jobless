@@ -159,13 +159,13 @@ div#apple-header.store ul.links {
 }
 
 #apple-header .site-search span.field-with-placeholder {
-/ / margin-top : 2 px
+    /*margin-top : 2 px*/
 }
 
 #apple-header .site-search span.field-with-placeholder label.placeholder span {
     text-shadow: rgba(0, 0, 0, .5) 0 1px 1px;
     margin-top: 1px;
-/ / margin-top : - 1 px
+    /*margin-top : -1 px;*/
 }
 
 #apple-header .search .sitesearch-wrapper .wrapper input {
@@ -227,13 +227,6 @@ div#apple-header.store ul.links {
 
 #apple-header.enhanced, #apple-header.enhanced .links, #apple-header.enhanced .links li, #apple-header.enhanced .links li a {
     height: 36px
-}
-
-#apple-header.enhanced {
-    /*background: #707070;*/
-    /*background: -o-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, .2) 100%), -o-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC") no-repeat 50% 50%, -o-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);*/
-    /*background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 95%, rgba(0, 0, 0, .2) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC") no-repeat 50% 50%, -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);*/
-    /*background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.95, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHVQTFRFAAAA%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F5YtmQAAAACd0Uk5TAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmZiD6WAAAAdlJREFUeF7t3btuFEEQheFzunotGYkIERA4spn3fyeHiAgEEtsXB82s2eEJavR%2F0Wjyo75XWfHpw4MkSXNqCkA2lr2%2B%2Fvz63n15qpI0x5yTSAM52XaxJLVXf%2FkoaY6xQk2sgXy8Ql2KJf3wS5HG6HMMQg3kZNkuxVGKNLxJo48%2BxhxTpBrIx7JcXEqUKJI3zd77CjWLaiAle4U6Iixv6q33MfocTL%2BBlCy7OEqJqCFvs%2FV2m3%2BTaiAd6zb7rlHtrbc1VA%2Bm30BSa%2B%2B7RNSo4a21thbVTL%2BBnCy7rCV1rdXbtbXW%2B%2Bh%2Ft78BZLM2v6NE1Fov%2FrpC3Zl%2BA2l5H6lrrRe%2FXNu%2BqCbUQE57qGvsoW5t9D4H028gJculOKLUWuvFz%2B16O9NipAZSsm8nWpfq53ZlTQ3k9s%2BamlADZ0CogZMh1MDJEGrgZAg1cDL%2Fh5ojLSC1%2ByMtLp8A2R0un3BNFEjv%2FpooDzqA9O4fdPD0Esju8PSSIglAdsciCZQzArI7lDOat30yCg8CGe2FB1eovZcI7oMSwUBSq0TwWlQHxfyBEzgW86ftDpDase0ODfKA7A4N8mhlC2R318r2px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC") no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080))*/
 }
 
 #apple-header.enhanced .links {
@@ -1533,8 +1526,8 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
     word-spacing: 0;
     border: 1px solid #224272;
     padding: 4px 25px;
-    padding-top: 5px  \0/;
-    padding-bottom: 3px  \0/;
+    padding-top: 5px;
+    padding-bottom: 3px;
     background-size: 8px 22px;
     opacity: 1;
     filter: alpha(opacity=100);
@@ -1555,10 +1548,6 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
     box-shadow: 0 0 6px #007eff
 }
 
-.button:focus {
-    outline: 1px dotted black  \0/
-}
-
 .button:hover {
     text-decoration: none
 }
@@ -1572,14 +1561,6 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
     opacity: .5;
     filter: alpha(opacity=50);
 }
-
-.button.rect.disabled {
-    opacity: .5;
-    filter: alpha(opacity=50);
-    -ms-filter: alpha(opacity=50);
-    background: #4c88bc
-}
-
 .button.tight-fit>span {
     padding-left: 15px;
     padding-right: 15px
@@ -1592,17 +1573,6 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
 .button.skin-tight>span {
     padding-left: 10px;
     padding-right: 10px
-}
-
-.button.small>span {
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    border-radius: 7px;
-    font-size: .8em;
-    vertical-align: baseline;
-    padding: 2px 12px;
-    padding-top: 3px  \0/;
-    padding-bottom: 1px  \0/
 }
 
 .button>span, .button.disabled:hover>span, .button.primary>span, .button.primary.disabled:hover>span {
@@ -1736,15 +1706,14 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
 }
 
 .button.matte:focus>span {
-    -webkit-box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0px 0 6px #007eff;
-    -moz-box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0px 0 6px #007eff;
-    box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0px 0 6px #007eff
+    -webkit-box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 6px #007eff;
+    -moz-box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 6px #007eff;
+    box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4), 0 0 6px #007eff
 }
 
 .button.matte:hover>span, .button.matte:focus>span {
     opacity: .75;
     filter: alpha(opacity=75);
-    -ms-filter: alpha(opacity=75)
 }
 
 .button.marketing {
@@ -1817,18 +1786,7 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
     text-shadow: none
 }
 
-.button.marketing.secondary>span {
-    border-color: #4d4d4d;
-    background-color: #6c6c6c;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#6c6c6c));
-    background-image: -moz-linear-gradient(-90deg, from(rgba(86, 168, 228, 1)), to(rgba(47, 118, 208, 1)));
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 1px 0 #b5b5b5;
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 1px 0 #b5b5b5;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), inset 0 1px 0 #b5b5b5
-}
-
 .button.compare>span {
-    background-image: url(common/src/store/base/patterns/buttons/css/bg/compare.png);
     border: 1px solid #323232;
     background-color: #323232;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #707171), color-stop(0.5, #353535), color-stop(0.5, #181818), color-stop(0.7, #131313), color-stop(1, #323232));
@@ -1840,13 +1798,11 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
     box-shadow: inset 0 1px 0 #afafaf, 0 1px 2px rgba(0, 0, 0, 0.4);
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100)
 }
 
 .button.compare:hover>span, .button.compare:focus>span {
     opacity: .75;
     filter: alpha(opacity=75);
-    -ms-filter: alpha(opacity=75)
 }
 
 .button.compare:focus>span {
@@ -1907,18 +1863,6 @@ body.find-your-school div#page.family div.box div.box-content p.heading-single-r
 
 .button-group .button.active>span, .button-group .button:hover>span, .button-group .button:focus>span {
     background: -webkit-gradient(linear, left top, left bottom, from(#8199b6), to(#2c4d73))
-}
-
-.button.product>span {
-    color: #000;
-    border: 0;
-    background-color: #fff;
-    padding-bottom: 5px;
-    background-image: url(common/src/store/base/patterns/buttons/css/bg/product.png);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.48, rgba(150, 150, 150, .1)), color-stop(0.48, rgba(0, 0, 0, .1)), color-stop(0.7, rgba(0, 0, 0, .15)), color-stop(0.9, rgba(0, 0, 0, .25)), color-stop(1, rgba(0, 0, 0, .2)));
-    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, rgba(150, 150, 150, .1) 48%, rgba(0, 0, 0, .1) 48%, rgba(0, 0, 0, .15) 70%, rgba(0, 0, 0, .25) 90%, rgba(0, 0, 0, .2) 100%);
-    background-size: 8px 22px;
-    text-shadow: 0 1px 1px #FFF
 }
 
 .button.product:hover>span, .button.product:focus>span {
@@ -2268,7 +2212,6 @@ button.disabled, button.disabled:hover {
     font-size: 26px;
     opacity: .90;
     filter: alpha(opacity=90);
-    -ms-filter: alpha(opacity=90);
     padding: 5px 5px 9px;
     text-shadow: 0 -1px #b7b7b7;
     -webkit-transition: .5s background ease-out;
@@ -2292,7 +2235,6 @@ button.disabled, button.disabled:hover {
     background: #e0e0e0;
     opacity: .20;
     filter: alpha(opacity=20);
-    -ms-filter: alpha(opacity=20)
 }
 
 .compound-button .button>span {
@@ -2342,10 +2284,6 @@ button.disabled, button.disabled:hover {
     box-shadow: 0 0 6px #007eff
 }
 
-.compound-button .handle:focus {
-    outline: 1px dotted black  \0/
-}
-
 .compound-button .handle>span {
     color: white;
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
@@ -2356,7 +2294,6 @@ button.disabled, button.disabled:hover {
     border: 1px solid #224272;
     border-left: none;
     padding: 9px 8px 9px 6px;
-    background: #224272 url(common/src/store/base/patterns/compound-buttons/css/bg/button_colors.png) repeat-x;
     -webkit-border-radius: 0 11px 11px 0;
     -moz-border-radius: 0 11px 11px 0;
     border-radius: 0 11px 11px 0
@@ -2396,7 +2333,6 @@ button.disabled, button.disabled:hover {
 .compound-button .handle .arrow span {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     display: inline-block
 }
 
@@ -2412,7 +2348,6 @@ button.disabled, button.disabled:hover {
     margin: 0;
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100);
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
     right: 21px;
     z-index: 1;
@@ -2445,7 +2380,6 @@ button.disabled, button.disabled:hover {
     cursor: default;
     opacity: .5;
     filter: alpha(opacity=50);
-    -ms-filter: alpha(opacity=50)
 }
 
 .compound-button .handle.account>span {
@@ -2572,7 +2506,6 @@ button.disabled, button.disabled:hover {
 
 .compound-button .handle .arrow {
     background-repeat: no-repeat;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEpJREFUeNpj/P//fzsDA0MFAyaYwdzY2Li3oaFBBcjRQ5LYAcSxTFBOKhAfgLIvAHEkIyPjH2YQD6j7D1D3RiBTB4jDgRJvGAgBAKGlEzRe+TnPAAAAAElFTkSuQmCC");
     background-size: 7px 5px;
     background-position: left center
 }
@@ -2584,7 +2517,6 @@ button.disabled, button.disabled:hover {
 }
 
 .compound-button .handle.compare>span {
-    background-image: url(common/src/store/base/patterns/compound-buttons/css/bg/compare.png);
     background-size: 8px 22px;
     border: 1px solid #323232;
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #707171), color-stop(0.5, #353535), color-stop(0.5, #181818), color-stop(0.7, #131313), color-stop(1, #323232));
@@ -2604,7 +2536,6 @@ button.disabled, button.disabled:hover {
 .compound-button .handle.compare:hover>span, .compound-button .handle.compare.hover>span {
     opacity: .75;
     filter: alpha(opacity=75);
-    -ms-filter: alpha(opacity=75)
 }
 
 .compound-button .handle.matte {
@@ -2619,26 +2550,9 @@ button.disabled, button.disabled:hover {
     box-shadow: inset 0 1px 0 #afafaf
 }
 
-.compound-button .handle.matte>span {
-    background-image: url(common/src/store/base/patterns/compound-buttons/css/bg/matte.png);
-    background-size: 8px 22px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.36)), to(rgba(255, 255, 255, 0)));
-    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.36) 0, rgba(255, 255, 255, 0) 100%);
-    background-color: #060606;
-    border-color: #060606;
-    text-shadow: #2b2b2b 1px 1px 1px;
-    -webkit-box-shadow: inset 0 1px 0 #afafaf;
-    -moz-box-shadow: inset 0 1px 0 #afafaf;
-    box-shadow: inset 0 1px 0 #afafaf;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100)
-}
-
 .compound-button .handle.matte:hover>span, .compound-button .handle.matte.hover>span {
     opacity: .75;
     filter: alpha(opacity=75);
-    -ms-filter: alpha(opacity=75)
 }
 
 .compound-button .button.matte:focus>span, .compound-button .handle.matte:focus>span {
@@ -2661,25 +2575,8 @@ button.disabled, button.disabled:hover {
     background: 0
 }
 
-.compound-button .handle.product>span {
-    color: #000;
-    border: 0;
-    background-color: #FFF;
-    border-left: 1px solid #CCC  \0/;
-    background-image: url(common/src/store/base/patterns/compound-buttons/css/bg/product.png);
-    background-size: 8px 22px;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.48, rgba(150, 150, 150, .1)), color-stop(0.48, rgba(0, 0, 0, .1)), color-stop(0.7, rgba(0, 0, 0, .15)), color-stop(0.9, rgba(0, 0, 0, .25)), color-stop(1, rgba(0, 0, 0, .2)));
-    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, rgba(150, 150, 150, .1) 48%, rgba(0, 0, 0, .1) 48%, rgba(0, 0, 0, .15) 70%, rgba(0, 0, 0, .25) 90%, rgba(0, 0, 0, .2) 100%);
-    text-shadow: 0 1px 1px #FFF
-}
-
 .ns .compound-button .handle.product>span {
     background: 0
-}
-
-.compound-button .handle.product.hover:before, .compound-button .handle.product:hover:before {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .3)), color-stop(1, rgba(0, 0, 0, .3)));
-    background-image: -moz-linear-gradient(-90deg, rgba(0, 0, 0, .3) 0, rgba(0, 0, 0, .3) 100%)
 }
 
 .ns .compound-button .handle.product.hover:before, .ns .compound-button .handle.product:hover:before {
@@ -2691,28 +2588,19 @@ button.disabled, button.disabled:hover {
     background: -moz-linear-gradient(-90deg, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, 0) 100%)
 }
 
-.compound-button .handle.product:hover>span {
-    text-shadow: none;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.48, rgba(150, 150, 150, .1)), color-stop(0.48, rgba(0, 0, 0, .1)), color-stop(0.7, rgba(0, 0, 0, .12)), color-stop(0.94, rgba(0, 0, 0, .05)), color-stop(0.95, rgba(0, 0, 0, .2)), color-stop(1, rgba(0, 0, 0, .2)));
-    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0) 0, rgba(150, 150, 150, .1) 48%, rgba(0, 0, 0, .1) 48%, rgba(0, 0, 0, .12) 70%, rgba(0, 0, 0, .05) 94%, rgba(0, 0, 0, .2) 95%, rgba(0, 0, 0, .2) 100%)
-}
-
 .compound-button .handle.product:hover>span, .compound-button .handle.product:focus>span {
     background-color: #4d4d4d
 }
 
 .compound-button .handle.product.hover .arrow, .compound-button .handle.product:focus .arrow {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAEpJREFUeNpj/P//fzsDA0MFAyaYwdzY2Li3oaFBBcjRQ5LYAcSxTFBOKhAfgLIvAHEkIyPjH2YQD6j7D1D3RiBTB4jDgRJvGAgBAKGlEzRe+TnPAAAAAElFTkSuQmCC");
     background-size: 7px 5px
 }
 
 .compound-button .handle.product .arrow {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUeNpjZGBgaAfiCgZMMIMZSOwFYhUg1kOS2AHEscxQznYgtgFiBSC+AMS+QPwN2RgBIN4MxBIMxAAAoyQHxLfmsXcAAAAASUVORK5CYII=");
     background-size: 7px 5px
 }
 
 .ns .compound-button .handle.product.hover .arrow, .ns .compound-button .handle.product:focus .arrow, .ns .compound-button .handle.product .arrow {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAFlJREFUeNpjZGg5087AyFDBgAlmMDPsm7WXwTlVhYGBUQ8u/P//DoY/X2KZwJzfX1KBug9ApS4w/GGJZGhw/MMM5h5Y+IfBNnMjA9N/HQa2f+EM1SZvGAgBAOznGdeOgpiYAAAAAElFTkSuQmCC");
     background-size: 7px 5px
 }
 
@@ -2828,7 +2716,6 @@ button:-moz-focusring {
 .dynamic-menu .spinner {
     padding: 20px 0 10px 0;
     text-align: center;
-    background: url(../common/src/store/base/patterns/dynamic-menu/css/bg/16x16.gif) no-repeat 50% 50%
 }
 
 .dynamic-menu {
@@ -2932,7 +2819,6 @@ button:-moz-focusring {
 }
 
 .rating {
-    background: url(common/src/store/base/patterns/ratings/images/star-ratings.png) no-repeat 0 0;
     background-size: 68px 117px;
     height: 11px;
     width: 68px;
@@ -3001,7 +2887,6 @@ button:-moz-focusring {
 }
 
 textarea {
-    background: #fff url(source/store/base/patterns/forms/css/bg/field.png) repeat-x 0 0;
     background-size: 1px 1px;
     border: 1px solid #ccc
 }
@@ -3075,13 +2960,11 @@ a.disabled, a.disabled:hover {
 }
 
 a.prev {
-    background: url(common/src/store/base/patterns/links/css/bg/nav_sprites.png) no-repeat center left;
     background-size: 13px 70px;
     padding-left: 17px
 }
 
 a.next {
-    background: url(common/src/store/base/patterns/links/css/bg/nav_sprites.png) no-repeat bottom right;
     background-size: 13px 70px;
     padding-right: 17px
 }
@@ -3100,20 +2983,17 @@ a.block span.link, a.block span.more {
 a.pointer, a.more, a.block span.more {
     padding-right: 7px;
     background: url("data:image/gif;base64,R0lGODlhBAAHAIAAAACIzP///yH5BAEHAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==") no-repeat 100% 60%;
-    *background-image: url(common/src/store/base/patterns/links/css/bg/more.png);
     background-size: 4px 7px;
     zoom: 1
 }
 
 a.more-up {
     padding-right: 10px;
-    background-image: url(common/src/store/base/patterns/links/css/bg/arrow-up.png);
     background-size: 7px 4px
 }
 
 a.more-down {
     padding-right: 10px;
-    background-image: url(common/src/store/base/patterns/links/css/bg/arrow-down.png);
     background-size: 7px 4px
 }
 
@@ -3128,25 +3008,21 @@ a.block:hover span.link, a.block:hover span.more {
 a.external {
     padding-right: 13px;
     background: url("data:image/gif;base64,R0lGODlhCgAKAPIEADiR3ziS3ziR3jmS3////wAAAAAAAAAAACH5BAUAAAQALAAAAAAKAAoAQAMjSEoSMW+sBZRUNUIogLjPIijBJIoXyRDDNZbSMJpX23rBnAAAOw==") no-repeat 100% 40%;
-    *background-image: url(../common/src/store/base/patterns/links/css/bg/external.gif);
     zoom: 1
 }
 
 a.scroll-to {
     padding-right: 13px;
-    background: url(common/src/store/base/patterns/links/css/bg/scroll-to.png) no-repeat 100% 55%;
     background-size: 9px 8px;
     zoom: 1
 }
 
 .expanded a.scroll-to {
-    background: url(common/src/store/base/patterns/links/css/bg/scroll-to-up.png) no-repeat 100% 55%;
     background-size: 9px 8px
 }
 
 .question-answer-link a {
     padding: 2px 0 2px 20px;
-    background: url(common/src/store/base/patterns/links/css/bg/question-answer-link.png) no-repeat 0 0;
     background-size: 16px 16px;
     color: #666 !important;
     text-decoration: none !important
@@ -3160,7 +3036,6 @@ a.scroll-to {
 .product-details .product-info .question-answer-link {
     float: left;
     padding: 0 6px 9px 32px;
-    background: url(common/src/store/base/patterns/links/css/bg/question-answer-link-pdp.png) no-repeat -1px 4px;
     background-size: 25px 27px;
     white-space: nowrap
 }
@@ -3180,7 +3055,6 @@ a.scroll-to {
 }
 
 ul.bulleted li {
-    background: transparent url(common/src/store/base/patterns/lists/css/bg/bullet.png) no-repeat 0 .6em;
     background-size: 4px 4px;
     margin: 1px 0;
     padding: 0 0 0 15px
@@ -3195,7 +3069,6 @@ ul.pipe-list>li {
     float: left;
     margin-left: -5px;
     padding: 0 13px 0 9px;
-    background: transparent url(common/src/store/base/patterns/lists/css/bg/pipe.png) no-repeat 0 50%;
     background-size: 1px 9px
 }
 
@@ -3385,7 +3258,6 @@ ul.pipe-list-right {
 }
 
 .list-of-links h3 a {
-    background: #efefef url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAWVJREFUeNpjZEACBTWdmgwMLE4M//8pMTAw8gDxt/8M/+4zMTHv7W8uugpTxwgiGhoamD7+4gv7x/jPHijAxIAdHPkrzrZqcl7eT7ACkIb/jP8cQRoMdNQl+Hl52LBosmF++SsMxGAGOek/A2M4I9RWR1szdX9PB9s3796/evX63Vc0jXKWDh73mUB+QHcSDzcnb2Kkn5+Pu60WunX//v11ZoJ4GhMwMjIyOdua2eSnRbggO5eRgUmRCRJKuIGCnLRSZmKIGzsbKzNE5D8XC5D4gk/jg0dP7y1ete3Iz1+//0Lt+sbCwMh0j+H/fz1sGk6euXxmxYZd55DFQPEGtOnPPmAgomj68vX757Wb9+6/cOXmCwyT/jMcYD5xaM8bS1sPHgbG/4ogMRZm5v879x27cP/Rsw/YInhiW+luFhCLn+3TKmAEM4BSBFbTkVIEPBlhpj0GFVAogTwNjJmHjEzMu5HTHgAzHIZ6K9k4ggAAAABJRU5ErkJggg==") no-repeat 146px 5px;
     background-size: 13px 13px;
     padding-right: 23px
 }
@@ -3399,7 +3271,6 @@ ul.pipe-list-right {
 }
 
 .ns .list-of-links h3 a {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAWVJREFUeNpjZEACBTWdmgwMLE4M//8pMTAw8gDxt/8M/+4zMTHv7W8uugpTxwgiGhoamD7+4gv7x/jPHijAxIAdHPkrzrZqcl7eT7ACkIb/jP8cQRoMdNQl+Hl52LBosmF++SsMxGAGOek/A2M4I9RWR1szdX9PB9s3796/evX63Vc0jXKWDh73mUB+QHcSDzcnb2Kkn5+Pu60WunX//v11ZoJ4GhMwMjIyOdua2eSnRbggO5eRgUmRCRJKuIGCnLRSZmKIGzsbKzNE5D8XC5D4gk/jg0dP7y1ete3Iz1+//0Lt+sbCwMh0j+H/fz1sGk6euXxmxYZd55DFQPEGtOnPPmAgomj68vX757Wb9+6/cOXmCwyT/jMcYD5xaM8bS1sPHgbG/4ogMRZm5v879x27cP/Rsw/YInhiW+luFhCLn+3TKmAEM4BSBFbTkVIEPBlhpj0GFVAogTwNjJmHjEzMu5HTHgAzHIZ6K9k4ggAAAABJRU5ErkJggg==") no-repeat 146px 5px;
     background-size: 13px 13px
 }
 
@@ -3418,8 +3289,6 @@ ul.pipe-list-right {
 }
 
 .home .new-to-store .box-content {
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAADwCAYAAADB2w41AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAEZ0FNQQAAsY58+1GTAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAACZJREFUeNpj+Pr1638mBiBgYmRkZICw6EYMgJWj9o7aO2rvkLUXAMmnBdtNg/0aAAAAAElFTkSuQmCC") repeat-x 0 0;
-    *background-image: url(common/src/store/base/patterns/list-of-links/css/bg/new-to-store-gradient.png);
     background-size: 1px 240px
 }
 
@@ -3442,7 +3311,6 @@ ul.pipe-list-right {
 }
 
 .product-grid .product-row {
-    background: transparent url(common/src/store/base/patterns/product-tile/css/bg/product-tile-sprite.png) repeat-y 0 0;
     background-size: 628px 1px;
     width: 628px
 }
@@ -3601,7 +3469,6 @@ body.interim div.footer .call, body.interim div.footer .contact-phone {
 }
 
 #navigation .filter a, #navigation .filter .tl, #navigation .filter .bl {
-    background: transparent url(source/store/base/patterns/sort-filter/css/bg/sort-filter-sprite.png) no-repeat 0 0;
     background-size: 600px 50px;
     padding-right: 30px
 }
@@ -3663,7 +3530,6 @@ body.interim div.footer .call, body.interim div.footer .contact-phone {
 }
 
 .rail .tile {
-    background: url(source/store/base/patterns/tile/css/bg/line.png) no-repeat;
     background-size: 164px 1px;
     padding: 5px 0 10px
 }
@@ -3769,7 +3635,6 @@ a.video-button {
 }
 
 .video-button, .video-button span {
-    background: url(../source/store/base/patterns/video-button/css/bg/video-button.png) no-repeat 0 0;
     height: 48px;
     line-height: 48px
 }
@@ -3803,7 +3668,6 @@ a.video-button {
 .masthead .aos-title a {
     margin-top: 6px;
     float: left;
-    background: url(common/src/store/base/nav/header/css/bg/store-header-footer-sprite.png) no-repeat -2px -2px;
     background-size: 120px 300px;
     height: 0;
     overflow: hidden;
@@ -3868,7 +3732,6 @@ a.video-button {
 
 .store-header .breadcrumbs li {
     float: left;
-    background: url(common/src/store/base/nav/header/css/bg/store-header-footer-sprite.png) no-repeat -90px -54px;
     background-size: 120px 300px;
     padding: 0 2px 0 10px
 }
@@ -3891,7 +3754,6 @@ a.video-button {
 }
 
 .store-header .breadcrumbs li a.home {
-    background: url(common/src/store/base/nav/header/css/bg/store-header-footer-sprite.png) no-repeat 9px -52px;
     background-size: 120px 300px;
     height: 0;
     overflow: hidden;
@@ -3938,7 +3800,6 @@ a.video-button {
     line-height: 17px;
     padding: 2px 15px 0 20px;
     cursor: pointer;
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/utilitynav-menu-icons.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 450px 221px;
@@ -4008,7 +3869,6 @@ a.video-button {
     line-height: 19px;
     color: #333;
     font-size: 11px;
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/utilitynav-menu-icons.png);
     background-repeat: no-repeat;
     background-position: 1px -68px;
     background-size: 450px 220px
@@ -4038,7 +3898,6 @@ a.video-button {
 }
 
 .user-navigation li#u_account a {
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/utilitynav-menu-icons.png);
     background-repeat: no-repeat;
     background-position: 0 -137px;
     background-size: 450px 223px;
@@ -4060,7 +3919,6 @@ a.video-button {
 }
 
 .user-navigation li#u_cart a {
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/utilitynav-menu-icons.png);
     background-repeat: no-repeat;
     background-position: 0 -202px;
     background-size: 450px 221px;
@@ -4135,7 +3993,6 @@ div.utility-nav {
 
 .unav-account:before, .unav-cart:before, .contact-drawer .box:before, .concierge-drawer .box:before {
     content: "";
-    background: url(common/src/store/base/nav/header/css/img/arrow.png) no-repeat;
     background-size: 20px 12px;
     height: 11px;
     width: 21px;
@@ -4329,7 +4186,6 @@ div.utility-nav {
 }
 
 .concierge-drawer .text-chat a {
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/concierge-submenu-icons.png);
     background-position: 7px 8px;
     background-repeat: no-repeat;
     background-size: 1019px 260px;
@@ -4364,13 +4220,11 @@ div.utility-nav {
     display: inline;
     padding: 0 7px 0 0;
     background: url("data:image/gif;base64,R0lGODlhBAAHAIAAAACIzP///yH5BAEHAAEALAAAAAAEAAcAAAIIRA4WaeyrVCgAOw==") no-repeat 100% 60%;
-    *background-image: url(common/src/store/base/nav/header/css/bg/more.png);
     background-size: 4px 7px;
     zoom: 1
 }
 
 .concierge-drawer .call a {
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/concierge-submenu-icons.png);
     background-repeat: no-repeat;
     background-position: 7px -95px;
     background-size: 1019px 260px;
@@ -4388,7 +4242,6 @@ div.utility-nav {
 }
 
 .concierge-drawer .httour a {
-    background-image: url(common/src/store/base/nav/header/css/bg/utility-nav/concierge-submenu-icons.png);
     background-repeat: no-repeat;
     background-position: 7px -199px;
     background-size: 1019px 260px;
@@ -4582,7 +4435,6 @@ div.utility-nav {
 }
 
 #call-apple-content span {
-    background: url(oocss/sites/store/features/concierge/img/phone-icon.png) no-repeat;
     background-size: 24px 31px;
     display: inline-block;
     width: 23px;
@@ -4600,7 +4452,6 @@ div.utility-nav {
     height: 173px;
     padding: 25px 30px 20px;
     font-size: 15px;
-    background: url(../oocss/sites/store/features/concierge/img/call-apple-bg.png);
     background: -webkit-radial-gradient(50% -50%, ellipse closest-corner, #f5f5f5 -600%, transparent), -webkit-radial-gradient(50% 150%, ellipse closest-corner, #f5f5f5 -600%, transparent), -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(white));
     background: -moz-radial-gradient(50% -50%, ellipse closest-corner, #f5f5f5 -600%, transparent), -moz-radial-gradient(50% 150%, ellipse closest-corner, #f5f5f5 -600%, transparent), -moz-linear-gradient(#f7f7f7, white)
 }
@@ -4780,7 +4631,6 @@ div.utility-nav {
     z-index: 1;
     width: 30px;
     height: 87px;
-    background-image: url(common/src/store/base/nav/navbar/css/bg/lateralnav_arrows.png);
     background-repeat: no-repeat;
     background-size: 65px 271px;
     background-color: #e6e6e6;
@@ -4806,11 +4656,9 @@ div.utility-nav {
 }
 
 .lateral-navbar.taller .navbar-arrow.left, .lateral-navbar.taller .navbar-arrow.left:hover, .lateral-navbar.taller .navbar-arrow.left:active {
-    background-image: url(common/src/store/base/nav/navbar/css/bg/lateralnav_arrow_left_tall.png)
 }
 
 .lateral-navbar.taller .navbar-arrow.right, .lateral-navbar.taller .navbar-arrow.right:hover, .lateral-navbar.taller .navbar-arrow.right:active {
-    background-image: url(common/src/store/base/nav/navbar/css/bg/lateralnav_arrow_right_tall.png)
 }
 
 .navbar-arrow.left {
@@ -4909,13 +4757,11 @@ div.utility-nav {
     border-right: 1px solid #e7e7e7;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 .nojs .lateral-navbar ul li, .lateral-navbar.loaded ul li {
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100)
 }
 
 .lateral-navbar li:last-child {
@@ -5146,7 +4992,6 @@ div.utility-nav {
     background: -o-linear-gradient(top, rgba(90, 90, 90, 1) 0, rgba(255, 255, 255, 0.5) 10%), -o-linear-gradient(top, rgba(122, 122, 122, 0.7) 40%, rgba(255, 255, 255, 0.5) 100%);
     background: -ms-linear-gradient(top, rgba(90, 90, 90, 1) 0, rgba(255, 255, 255, 0.5) 3%), -ms-linear-gradient(top, rgba(122, 122, 122, 0.7) 40%, rgba(255, 255, 255, 0.5) 100%);
     background: linear-gradient(top, rgba(90, 90, 90, 1) 0, rgba(255, 255, 255, 0.5) 10%), linear-gradient(top, rgba(122, 122, 122, 0.7) 40%, rgba(255, 255, 255, 0.5) 100%);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=" #d6d6d6 ", endColorstr=" #fff ")";
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="#d6d6d6", endColorstr="#ffffff")
 }
 
@@ -5249,7 +5094,6 @@ div.utility-nav {
     100% {
         opacity: 1;
         filter: alpha(opacity=100);
-        -ms-filter: alpha(opacity=100);
         -webkit-transform: translateX(0)
     }
 }
@@ -5261,7 +5105,6 @@ div.utility-nav {
     100% {
         opacity: 1;
         filter: alpha(opacity=100);
-        -ms-filter: alpha(opacity=100);
         -moz-transform: translateX(0)
     }
 }
@@ -5273,7 +5116,6 @@ div.utility-nav {
     100% {
         opacity: 1;
         filter: alpha(opacity=100);
-        -ms-filter: alpha(opacity=100);
         -o-transform: translateX(0)
     }
 }
@@ -5285,7 +5127,6 @@ div.utility-nav {
     100% {
         opacity: 1;
         filter: alpha(opacity=100);
-        -ms-filter: alpha(opacity=100);
         transform: translateX(0)
     }
 }
@@ -5332,7 +5173,6 @@ footer {
 
 .apple-footer>ul>li {
     float: left;
-    background: transparent url(common/src/store/base/nav/footer/css/bg/store-header-footer-sprite.png) no-repeat -2px -208px;
     background-size: 120px 300px;
     margin-left: 10px;
     padding-left: 11px;
@@ -5366,7 +5206,6 @@ footer {
 }
 
 .apple-footer ul.stores>li:first-child a {
-    background: url(common/src/store/base/nav/footer/css/bg/store-header-footer-sprite.png) no-repeat -2px -180px;
     background-size: 120px 300px;
     padding-left: 16px;
     color: #999
@@ -5413,14 +5252,12 @@ footer {
     clear: both;
     text-align: center;
     padding-top: 22px;
-    background: transparent url(common/src/store/base/nav/footer/css/bg/store-header-footer-sprite.png) repeat-x 0 -295px;
     background-size: 120px 300px
 }
 
 .apple-footer .format-switcher>li {
     float: none;
     display: inline;
-    background: transparent url(common/src/store/base/nav/footer/css/bg/store-header-footer-sprite.png) no-repeat -2px -210px;
     background-size: 120px 300px;
     margin-left: 10px;
     padding-left: 11px;
@@ -5452,12 +5289,10 @@ footer {
 }
 
 .apple-footer .country-selector .top, .apple-footer .country-selector ul, .apple-footer .country-selector .bottom {
-    background: url(common/src/store/base/nav/footer/css/bg/country-selector-sprite.png) no-repeat 0 0;
     background-size: 935px 600px
 }
 
 .apple-footer .preload-country-selector-sprite {
-    background: url(common/src/store/base/nav/footer/css/bg/country-selector-sprite.png) no-repeat -7777px -7777px;
     background-size: 935px 600px
 }
 
@@ -5525,7 +5360,6 @@ footer {
     display: none;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 .apple-footer .country-selector ul li {
@@ -5581,7 +5415,6 @@ footer ol.breadcrumbs li a {
     color: #666;
     text-decoration: none;
     padding: 0 1.75em 0 0;
-    background-image: url(common/src/store/base/nav/footer/css/bg/footer-arrow.png);
     background-repeat: no-repeat;
     background-position: 100% -28px;
     background-size: 30px 187px
@@ -5597,7 +5430,6 @@ footer ol.breadcrumbs li a.apple {
 }
 
 footer .breadcrumbs li a.apple span {
-    background-image: url(common/src/store/base/nav/footer/css/bg/apple.png);
     background-repeat: no-repeat;
     background-position: 0 -28px;
     background-size: 30px 187px;
@@ -5745,20 +5577,13 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .footnotes ul.circle li {
-    background: transparent url(common/src/store/base/nav/footer/css/bg/bullet-small.png) no-repeat 0 7px;
     background-size: 2px 2px;
     margin-bottom: 0;
     line-height: 14px
 }
 
-#fineprint {
-    padding-bottom: 15px 0;
-    clear: both
-}
-
 #fineprint .coda {
     margin: 5px auto 0;
-    background: transparent url(common/src/store/base/nav/footer/css/bg/footer-divider.png) repeat-x 0 0;
     background-size: 1px 40px;
     text-align: left;
     font-size: 10px;
@@ -5807,22 +5632,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
     padding-left: 1px
 }
 
-#fineprint .coda ul.store .apple-store {
-    padding: 6px 0 0 0;
-    padding-top: 7 px\0/IE8 +9
-}
-
-#fineprint .coda p.note {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 5px
-}
-
-#fineprint .coda .site-map {
-    padding: 6px 0 0 0;
-    padding-top: 7 px\0/IE8 +9
-}
-
 #fineprint .coda ul.site-map>li:first-child a {
     background: 0;
     background-size: 16px 16px;
@@ -5855,37 +5664,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 
 #fineprint .coda ul.sosumi a {
     outline-offset: -1px
-}
-
-#fineprint .coda .select-country {
-    float: right;
-    margin-bottom: 9px;
-    padding: 6px 0 0 0;
-    padding-top: 7 px\0/IE8 +9;
-    vertical-align: top;
-    background: 0
-}
-
-#fineprint .coda>ul>li.select-country a {
-    padding-left: 0;
-    border-left: none;
-    display: inline-block;
-    margin-left: 4px;
-    margin-left: 11 px\0/IE8 +9
-}
-
-#fineprint .coda .select-country img {
-    width: 22px;
-    height: 22px;
-    float: right;
-    margin-top: -20px;
-    margin-top: -2 px\0/IE8 +9;
-    padding-left: 7px
-}
-
-#fineprint .coda .security-policy {
-    padding: 6px 0 0 0;
-    padding-top: 7 px\0/IE8 +9
 }
 
 #fineprint .coda p.order-by-phone {
@@ -5937,7 +5715,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
     left: 0;
     height: 100%;
     width: 100%;
-    background: url(common/src/store/base/nav/chat/css/bg/ie.png) no-repeat;
     background-size: 1px 1px;
     text-indent: -2000em
 }
@@ -5957,7 +5734,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 .chat.chat-standby {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     visibility: hidden;
     zoom: 1
 }
@@ -5965,7 +5741,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 .open-drawer .chat.chat-online {
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100);
     visibility: visible
 }
 
@@ -5975,27 +5750,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 
 .masthead .contact .chat.chat-standby, .masthead .contact .chat.chat-online {
     display: inline
-}
-
-.chat-light-gif, .chat-light, .chat-dark, .chat-standard, .chat-masthead {
-    background: url(common/src/store/base/nav/chat/css/bg/button.png) no-repeat top left;
-    background-size: 16px 90px
-}
-
-.chat-light-gif.chat-online, .chat-light.chat-online, .chat-dark.chat-online, .chat-standard.chat-online, .chat-masthead.chat-online, .chat.text.chat-online {
-    cursor: pointer
-}
-
-* html .chat {
-    background-color: #fff
-}
-
-.chat-light-gif, .chat-light, .chat-dark, .chat-standard {
-    padding-left: 22px
-}
-
-.chat-light-gif, .chat-light, .chat-standard {
-    background-position: 0 0
 }
 
 .chat-dark {
@@ -6025,8 +5779,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .store-navigation .box-content {
-    background: url(common/src/store/base/nav/departments/css/bg/store-navigation.png) repeat-x 0 0;
-    *background-image: url(common/src/store/base/nav/departments/css/bg/store-navigation.png);
     background-size: 1px 240px;
     padding: 5px 0;
     line-height: 17px
@@ -6086,7 +5838,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .site-search .sitesearch-wrapper, .site-search .sitesearch-wrapper .wrapper {
-    background: url(src/features/search/css/bg/site-search-sprite.png) no-repeat 100% -55px;
     background-size: 600px 113px
 }
 
@@ -6103,7 +5854,7 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
     height: 20px;
     margin-right: 20px;
     padding: 7px 0 0 23px;
-/ / padding-top : 8 px
+/*padding-top : 8 px*/
 }
 
 .site-search .sitesearch-wrapper.focused .wrapper {
@@ -6147,7 +5898,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .site-search .search-spinner, .site-search .search-reset {
-    background: transparent url(src/features/search/css/bg/clear.png) no-repeat 0 0;
     background-size: 11px 11px;
     position: absolute;
     top: 9px;
@@ -6159,17 +5909,16 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .site-search .search-spinner {
-    background-image: url(../src/features/search/css/bg/spinner.gif)
 }
 
 .site-search button {
     margin: 5px 0 0 6px
 }
 
-.search {
-/ / position : relative;
-/ / z-index : 99999
-}
+/*.search {*/
+/*/ / position : relative;*/
+/*/ / z-index : 99999*/
+/*}*/
 
 .search-auto-complete {
     position: absolute;
@@ -6183,7 +5932,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
     background-color: #fff;
     opacity: .97;
     filter: alpha(opacity=97);
-    -ms-filter: alpha(opacity=97);
     width: 240px;
     font-size: 11px
 }
@@ -6236,7 +5984,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 .search-auto-complete ul li.selected {
-    background: #0f38e8 url(src/features/search/css/bg/auto-complete/s.png) repeat-x 0 0;
     background-size: 16px 15px;
     color: #fff;
     cursor: pointer
@@ -6272,7 +6019,6 @@ div.footnotes p:first-child, div.footnotes ol:first-child, div.footnotes ul:firs
 }
 
 #contact-options #contact-phone {
-    background: url(css/store/contact/bg/phone.png) no-repeat left 50%;
     background-size: 16px 16px;
     line-height: 1.6em;
     padding-left: 24px
@@ -6342,7 +6088,6 @@ div.content-group div.two-column {
 }
 
 div.content-full-width, div.content-full-width div.content-header, div.content-full-width div.content-section {
-    background-image: url(../source/store/base/patterns/content-group/css/bg/bg-full-width.gif)
 }
 
 div.content-full-width div.content-section {
@@ -6354,7 +6099,6 @@ div.content-full-width div.content-section {
 }
 
 div.content-group div.two-column, div.two-column div.content-header, div.two-column div.content-sub-header, div.two-column div.content-section {
-    background-image: url(../source/store/base/patterns/content-group/css/bg/bg-two-column.gif);
     background-size: 2409px 600px
 }
 
@@ -6549,13 +6293,6 @@ div.content-group div.content-section table {
     text-align: left;
     font-size: 11px;
     display: none
-}
-
-#promo-div .promo-div-header, .promo-div .promo-div-header {
-    padding-bottom: 16px;
-    width: 272px;
-    height: 48px;
-    vertical-align: center;
 }
 
 #promo-div h3, .promo-div h3 {
@@ -6868,7 +6605,6 @@ div.multi-step-form input.disabled {
 div.multi-step-form button.remove {
     width: 15px;
     height: 14px;
-    background: url(css/i/aos/checkout/icon-close.png) left top no-repeat;
     background-size: 15px 14px;
     font-size: 10px;
     cursor: pointer;
@@ -6909,25 +6645,6 @@ div.multi-step-form select {
 div.multi-step-form span.field-with-placeholder input {
     font-size: 11px;
     margin-right: 1px
-}
-
-div.multi-step-form .single-checkbox input {
-    float: left;
-    margin-top: 1px;
-    border: 0 !important;
-    background: none !important
-}
-
-div.multi-step-form .single-checkbox input[type=checkbox] {
-    border: 1px solid #4c4c4c !important;
-    border: none\9 !important;
-    padding: 0 \9
-}
-
-div.multi-step-form .single-checkbox input[type=checkbox]:checked {
-    background: #343434 !important;
-    background: transparent\9 !important;
-    padding: 0 \9
 }
 
 div.multi-step-form .single-checkbox label {
@@ -7133,7 +6850,6 @@ div.multi-step-form div.step-current h5 em.current-step-indicator {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(css/i/aos/module/h2.png) left top repeat-x;
     background-size: 1px 50px
 }
 
@@ -7426,7 +7142,6 @@ div.multi-step-form div.step-error p {
     background: 0;
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -7533,7 +7248,6 @@ div.multi-step-form div.step-error p {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(common/src/store/base/patterns/compound-buttons/images/arrow-blue.png);
     background-size: 12px 6px;
     background-position: 50% 50% !important;
     background-repeat: no-repeat;
@@ -7546,7 +7260,6 @@ div.multi-step-form div.step-error p {
 }
 
 .ns-buttons .compound-button .handle.merchandising .arrow, .ns-buttons .compound-button .handle.transactional .arrow, .ns-buttons .compound-button .handle.skip .arrow {
-    background-image: url(common/src/store/base/patterns/compound-buttons/images/arrow.png);
     background-size: 12px 6px
 }
 
@@ -7634,7 +7347,6 @@ body.cart div#secondary, body.checkout div#secondary {
     display: inline;
     padding-right: 7px;
     color: #0085cf;
-    background: url(css/i/aos/module/link-more.png) 100% 60% no-repeat !important;
     background-size: 4px 9px
 }
 
@@ -7667,7 +7379,6 @@ body.cart div#secondary, body.checkout div#secondary {
     z-index: 99998;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 .overlay {
@@ -7681,7 +7392,6 @@ body.cart div#secondary, body.checkout div#secondary {
     z-index: 100000;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .6);
     -moz-box-shadow: 0 0 25px rgba(0, 0, 0, .6);
     box-shadow: 0 0 25px rgba(0, 0, 0, .6)
@@ -7699,14 +7409,12 @@ body.cart div#secondary, body.checkout div#secondary {
     left: -18px;
     width: 28px;
     height: 28px;
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/overlay/widget_close.png);
     background-size: 28px 28px;
     background-repeat: no-repeat;
     z-index: 9999
 }
 
 .overlay .tl {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-tl.png) \0/;
     background-size: 50px 50px;
     left: -28px;
     top: -28px;
@@ -7715,7 +7423,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .tr {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-tr.png) \0/;
     background-size: 50px 50px;
     right: -28px;
     top: -28px;
@@ -7724,7 +7431,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .top {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-top.png) \0/;
     background-size: 50px 50px;
     background-repeat: repeat-x;
     left: 22px;
@@ -7734,7 +7440,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .left {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-left.png) \0/;
     background-size: 50px 50px;
     background-repeat: repeat-y;
     left: -28px;
@@ -7744,7 +7449,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .right {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-right.png) \0/;
     background-size: 50px 50px;
     background-repeat: repeat-y;
     right: -28px;
@@ -7754,7 +7458,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 #engravingOverlay .bottom, #touchTabOverlay .bottom, #nanoTabOverlay .bottom, #shuffleTabOverlay .bottom, #engravingTabOverlay .bottom {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/overlay/overlay-bottom.png);
     background-size: 50px 50px;
     background-repeat: repeat-x;
     bottom: -28px;
@@ -7764,7 +7467,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .bottom {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-bottom.png) \0/;
     background-size: 50px 50px;
     background-repeat: repeat-x;
     bottom: -28px;
@@ -7778,7 +7480,6 @@ body.cart div#secondary, body.checkout div#secondary {
     left: -28px;
     width: 50px;
     height: 50px;
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-bl.png) \0/;
     background-size: 50px 50px
 }
 
@@ -7787,7 +7488,6 @@ body.cart div#secondary, body.checkout div#secondary {
     right: -28px;
     width: 50px;
     height: 50px;
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-br.png) \0/;
     background-size: 50px 50px
 }
 
@@ -7835,7 +7535,6 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .overlay .center {
-    background: url(../common/src/store/base/patterns/overlays/css/bg/overlay/overlay-center.png) repeat;
     background-size: 50px 50px;
     left: 22px;
     right: 22px;
@@ -7852,7 +7551,6 @@ body.cart div#secondary, body.checkout div#secondary {
     left: 50%;
     top: 50%;
     z-index: 1001;
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/spinner_40x40.gif);
     background-repeat: no-repeat
 }
 
@@ -7864,7 +7562,6 @@ body.cart div#secondary, body.checkout div#secondary {
     margin-top: -20px;
     top: 50%;
     left: 50%;
-    background: url(../common/src/store/base/patterns/overlays/css/bg/spinner_40x40.gif) no-repeat 0 0;
     z-index: 99999
 }
 
@@ -7873,22 +7570,18 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .help-overlay .tl {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/top-left.png);
     background-size: 50px 50px
 }
 
 .help-overlay .top {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/top.png);
     background-size: 50px 50px
 }
 
 .help-overlay .tr {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/top-right.png);
     background-size: 50px 50px
 }
 
 .help-overlay .left {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/help-overlay/left.png)
 }
 
 .help-overlay .center {
@@ -7897,21 +7590,17 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .help-overlay .right {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/right.png);
     background-size: 50px 50px
 }
 
 .help-overlay .br {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/bottom-right.png);
     background-size: 50px 50px
 }
 
 .help-overlay .bottom {
-    background-image: url(../common/src/store/base/patterns/overlays/css/bg/help-overlay/bottom.png)
 }
 
 .help-overlay .bl {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-overlay/bottom-left.png);
     background-size: 50px 50px
 }
 
@@ -7929,7 +7618,6 @@ body.cart div#secondary, body.checkout div#secondary {
     position: absolute;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     z-index: 1000;
     min-height: 43px
 }
@@ -7939,43 +7627,35 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .bubble .tl {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/tl.png);
     background-size: 3px 39px;
     background-repeat: no-repeat;
     left: 0;
     top: 0;
     width: 3px;
     height: 39px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/tl.png", sizingMethod="scale")
 }
 
 .bubble .tr {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/tr.png);
     background-size: 4px 39px;
     background-repeat: no-repeat;
     right: 0;
     top: 0;
     width: 4px;
     height: 39px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/tr.png", sizingMethod="scale")
 }
 
 .bubble .top {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/t.png);
     background-size: 10px 39px;
     background-repeat: repeat-x;
     left: 3px;
     right: 4px;
     top: 0;
     height: 39px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/t.png", sizingMethod="scale")
 }
 
 .bubble .left {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/l.png);
     background-size: 3px 1px;
     background-repeat: repeat-y;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/l.png", sizingMethod="scale");
     left: 0;
     top: 39px;
     bottom: 4px;
@@ -7984,10 +7664,8 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .bubble .right {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/r.png);
     background-size: 4px 1px;
     background-repeat: repeat-y;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/r.png", sizingMethod="scale");
     right: 0;
     top: 39px;
     bottom: 4px;
@@ -7996,38 +7674,12 @@ body.cart div#secondary, body.checkout div#secondary {
 }
 
 .bubble .bottom {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/b.png);
     background-size: 10px 4px;
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/b.png", sizingMethod="scale");
     bottom: 0;
     left: 3px;
     right: 4px;
     height: 4px;
-    overflow: hidden
-}
-
-.bubble .bl {
-    bottom: 0;
-    left: 0;
-    width: 3px;
-    height: 4px;
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/bl.png);
-    background-size: 3px 4px;
-    background-repeat: no-repeat;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/bl.png", sizingMethod="scale");
-    overflow: hidden
-}
-
-.bubble .br {
-    bottom: 0;
-    right: 0;
-    width: 4px;
-    height: 4px;
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/br.png);
-    background-size: 4px 4px;
-    background-repeat: no-repeat;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/br.png", sizingMethod="scale");
     overflow: hidden
 }
 
@@ -8060,31 +7712,6 @@ body.cart div#secondary, body.checkout div#secondary {
 
 .bubble .close, .bubble .spinner {
     display: none
-}
-
-.bubble .arrow {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/arrow-bottom.png);
-    background-size: 18px 16px;
-    background-repeat: no-repeat;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/arrow-bottom.png", sizingMethod="scale");
-    width: 18px;
-    height: 16px;
-    margin-left: -9px;
-    bottom: -14px;
-    left: 50%
-}
-
-.bubble.below .arrow, .below .arrow {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/bubble/arrow-top.png);
-    background-size: 18px 16px;
-    background-repeat: no-repeat;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/bubble/arrow-top.png", sizingMethod="scale");
-    width: 18px;
-    height: 16px;
-    margin-left: -9px;
-    margin-top: 2px;
-    top: -16px;
-    left: 50%
 }
 
 .bubble ul.buttons {
@@ -8121,7 +7748,6 @@ body.cart div#secondary, body.checkout div#secondary {
     height: auto;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     -webkit-transition: opacity 150ms linear;
     -moz-transition: opacity 150ms linear;
     transition: opacity 150ms linear
@@ -8130,7 +7756,6 @@ body.cart div#secondary, body.checkout div#secondary {
 .help-message .show {
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100)
 }
 
 .help-message .content {
@@ -8145,151 +7770,7 @@ body.cart div#secondary, body.checkout div#secondary {
     border-collapse: collapse
 }
 
-.help-message tr.m td.l, .help-message tr.m td.r {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-message/v.png);
-    background-size: 35px 1px;
-    background-repeat: repeat-y
-}
-
-.help-message tr.m td.l {
-    background-position: 0 0;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/v_left.png", sizingMethod="scale")
-}
-
-.help-message tr.m td.r {
-    background-position: -17px 0;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/v_right.png", sizingMethod="scale")
-}
-
-.help-message tr.t td.m, .help-message tr.b td.m {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-message/h.png);
-    background-size: 1px 29px;
-    background-repeat: repeat-x
-}
-
-.help-message tr.t td.m {
-    background-position: 0 0;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/h_top.png", sizingMethod="scale")
-}
-
-.help-message tr.b td.m {
-    background-position: 0 -14px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/h_bottom.png", sizingMethod="scale")
-}
-
-.help-message tr.t td.l, .help-message tr.t td.r, .help-message tr.b td.l, .help-message tr.b td.r {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/help-message/c.png);
-    background-size: 35px 29px;
-    background-repeat: no-repeat
-}
-
-.help-message tr.t td.l {
-    background-position: 0 0;
-    width: 14px;
-    height: 13px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/c_top_left.png", sizingMethod="scale")
-}
-
-.help-message tr.t td.l span {
-    width: 14px;
-    height: 13px
-}
-
-.help-message tr.t td.r {
-    background-position: -17px 0;
-    width: 18px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/c_top_right.png", sizingMethod="scale")
-}
-
-.help-message tr.t td.r span {
-    width: 18px;
-    height: 13px
-}
-
-.help-message tr.b td.l {
-    background-position: 0 -14px;
-    height: 15px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/c_bottom_left.png", sizingMethod="scale")
-}
-
-.help-message tr.b td.r {
-    background-position: -17px -14px;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/Catalog/regional/amr/site-assets/images/help_message/c_bottom_right.png", sizingMethod="scale")
-}
-
-.help-message td.msg {
-    background-color: #fff;
-    text-align: left;
-    padding-bottom: 7px
-}
-
-.help-message .target {
-    z-index: 10;
-    position: absolute
-}
-
-.help-message .target .whats-this {
-    top: 0
-}
-
-.help-message .text-bottom {
-    top: -7px
-}
-
-.help-message .text-bottom .target {
-    top: 7px
-}
-
-.help-message .text-bottom .content {
-    margin-top: -6px
-}
-
-.help-message .text-right {
-    left: -7px
-}
-
-.help-message .text-right .target {
-    left: 7px
-}
-
-.help-message .text-right .content {
-    padding-left: 13px
-}
-
-.help-message .text-top {
-    bottom: -13px
-}
-
-.help-message .text-top .target {
-    bottom: 13px
-}
-
-.help-message .text-top .content {
-    margin-bottom: 15px
-}
-
-.help-message .text-left {
-    right: -11px
-}
-
-.help-message .text-left .target {
-    right: 11px
-}
-
-.help-message .text-left .content {
-    padding-right: 14px
-}
-
-.help-message .content p {
-    margin-bottom: 14px
-}
-
-div.site-message {
-    width: 660px
-}
-
 div.site-message .header, div.site-message .content, div.site-message .empty-footer, div.site-message .footer, div.site-message .bottom {
-    background-image: url(common/src/store/base/patterns/overlays/css/bg/overlay/bg-site-message.png);
     background-size: 2640px 200px;
     background-color: #FFF
 }
@@ -8391,7 +7872,6 @@ div.site-message .bottom {
     line-height: 90px;
     margin: -1px 0 0 0;
     padding: 0;
-    background: url(common/src/store/base/patterns/overlays/css/bg/overlay/tab_divider.png) 0 90px no-repeat;
     background-size: 165px 1px
 }
 
@@ -8501,49 +7981,6 @@ div.terms p.copywrite {
     padding: 10px 0 10px 10px
 }
 
-.gifting #errMsgId {
-    width: 270px;
-    color: red;
-    word-wrap: break-word
-}
-
-.ns.engraving_gifting.gifting div[role="main"] {
-    margin: 0 1px
-}
-
-.ns.engraving_gifting.gifting .box-content>h1 {
-    font-size: 22px;
-    padding: 25px;
-    line-height: 16px;
-    border-bottom: solid 1px #e7e7e7;
-    width: 750px
-}
-
-#engraving-options #skip-engraving {
-    display: none
-}
-
-.engraving_gifting #engraving_form div.outline_box {
-    position: absolute;
-    right: 252px;
-    top: 120px;
-    border: solid 1px #d9d9d9
-}
-
-.ns.engraving_gifting #engraving_form div.outline_box {
-    border: 0
-}
-
-.ns.engraving_gifting.gifting div.outline_box {
-    width: 303px;
-    left: -380px;
-    right: auto
-}
-
-.gifting #engraving_form div.outline_box {
-    top: 100px
-}
-
 .engraving_gifting .alert_bubble button {
     margin: 0;
     -moz-margin-start: -3px;
@@ -8582,18 +8019,6 @@ div.terms p.copywrite {
 
 .engraving_gifting form div.outline_box .top {
     padding: 15px 14px 5px 14px
-}
-
-.ns.engraving_gifting form div.outline_box .top {
-    -webkit-box-shadow: 0 1px 2px #999;
-    -moz-box-shadow: 0 1px 2px #999;
-    box-shadow: 0 1px 2px #999;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    border: 0;
-    background: #FFF;
-    border: 1px solid #e7e7e7\9
 }
 
 .engraving_gifting form div.outline_box .bottom {
@@ -8699,10 +8124,6 @@ div.terms p.copywrite {
     *left: 3px
 }
 
-.ns.gifting .secondary fieldset.purchase-info .compound-button .button>span, .ns.gifting .secondary fieldset.purchase-info .button>span {
-    padding: 9px
-}
-
 .ns.engraving_gifting .secondary fieldset.purchase-info.last .button>span {
     padding: 9px 28px
 }
@@ -8745,13 +8166,6 @@ div.terms p.copywrite {
     margin: 16px 0 0 30px;
     color: #333;
     float: left
-}
-
-.engraving_gifting .engraving-bottom-full .text h3, .engraving_gifting .gifting-bottom-full .text h3 {
-    margin-bottom: 10px;
-    font-size: 1.4em;
-    color: black;
-    font-weight: bold
 }
 
 .engraving_gifting .gifting-bottom-full .text h3 {
@@ -9348,15 +8762,6 @@ div#financing-promo-overlay.tdcard .overview .more-tnc {
     padding-bottom: 4px
 }
 
-div#financing-promo-overlay.tdcard .application-steps {
-    background: 0;
-    border-top: 1px solid #CCC;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    padding-top: 20px 0 0 0
-}
-
 div#financing-promo-overlay.tdcard .application-steps ol {
     padding-top: 10px;
     margin-left: 0;
@@ -9380,13 +8785,6 @@ div#financing-promo-overlay.tdcard .application-steps ol li p {
 
 div#financing-promo-overlay.tdcard .application-steps ol li.step1 {
     margin-left: 17px
-}
-
-.tdcard.controls {
-    position: absolute;
-    top: 275px;
-    left: 460px;
-    top: 235 px\0/
 }
 
 .tdcard.controls .button>span {
@@ -9419,15 +8817,11 @@ html.xf .tdcard.controls #return-store>span {
 .popup-wdgt .wdgt-top {
     margin-right: 15px;
     height: 30px;
-    background: url(css/i/aos/hover/popup-top-left.png) 0 0 no-repeat;
-    background: url(css/i/aos/hover/popup-top-left.png) 0 0 no-repeat\9;
     background-size: 1024px 30px;
     position: relative
 }
 
 .popup-wdgt .wdgt-top div {
-    background: url(css/i/aos/hover/popup-top-right.png) 0 0 no-repeat;
-    background: url(css/i/aos/hover/popup-top-right.png) 0 0 no-repeat\9;
     background-size: 15px 30px;
     height: 30px;
     width: 15px;
@@ -9437,8 +8831,6 @@ html.xf .tdcard.controls #return-store>span {
 }
 
 .popup-wdgt .wdgt-mdl {
-    background: url(css/i/aos/hover/popup-mdl-right.png) 100% 0 repeat-y;
-    background: url(css/i/aos/hover/popup-mdl-right.png) 100% 0 repeat-y\9;
     background-size: 15px 7px
 }
 
@@ -9448,8 +8840,6 @@ html.xf .tdcard.controls #return-store>span {
 
 .popup-wdgt .wdgt-mdl div.wdgt-left {
     position: relative;
-    background: url(css/i/aos/hover/popup-mdl-left.png) 0 0 repeat-y;
-    background: url(css/i/aos/hover/popup-mdl-left.png) 0 0 repeat-y\9;
     background-size: 1024px 7px;
     padding: 1px 0 1px 15px;
     margin-right: 5px;
@@ -9478,16 +8868,12 @@ html.xf .tdcard.controls #return-store>span {
 
 .popup-wdgt .wdgt-btm {
     height: 30px;
-    background: url(css/i/aos/hover/popup-btm-left.png) 0 0 no-repeat;
-    background: url(css/i/aos/hover/popup-btm-left.png) 0 0 no-repeat\9;
     background-size: 1024px 30px;
     position: relative;
     margin-right: 15px
 }
 
 .popup-wdgt .wdgt-btm div {
-    background: url(css/i/aos/hover/popup-btm-right.png) 0 0 no-repeat;
-    background: url(css/i/aos/hover/popup-btm-right.png) 0 0 no-repeat\9;
     background-size: 15px 30px;
     width: 15px;
     height: 30px;
@@ -9503,7 +8889,6 @@ html.xf .tdcard.controls #return-store>span {
 }
 
 .popup-wdgt .wdgt-top .triangle {
-    background: url(css/i/aos/hover/popup-bubble-top.png) 0 0 no-repeat;
     background-size: 28px 19px;
     height: 19px;
     top: 2px;
@@ -9511,7 +8896,6 @@ html.xf .tdcard.controls #return-store>span {
 }
 
 .popup-wdgt .wdgt-btm .triangle {
-    background: url(css/i/aos/hover/popup-bubble-btm.png) 0 0 no-repeat;
     background-size: 28px 24px;
     height: 24px;
     left: 15px;
@@ -9519,7 +8903,6 @@ html.xf .tdcard.controls #return-store>span {
 }
 
 .popup-wdgt .wdgt-left .triangle {
-    background: url(css/i/aos/hover/popup-bubble-left.png) 0 0 no-repeat;
     background-size: 19px 28px;
     height: 28px;
     width: 19px;
@@ -9529,8 +8912,6 @@ html.xf .tdcard.controls #return-store>span {
 
 .popup-wdgt .wdgt-right .triangle {
     position: absolute;
-    background: url(css/i/aos/hover/popup-bubble-right.png) 0 0 no-repeat;
-    background: url(css/i/aos/hover/popup-bubble-right.png) 0 0 no-repeat\9;
     background-size: 24px 28px;
     height: 28px;
     width: 24px;
@@ -9550,7 +8931,6 @@ html.xf .tdcard.controls #return-store>span {
     *width: 515px;
     *height: 143px;
     *position: static !important;
-    *background: url(css/i/aos/hover/popup-mdl-right.png) 100% 0 repeat-y !important;
     background-size: 15px 7px
 }
 
@@ -9564,7 +8944,6 @@ html.xf .tdcard.controls #return-store>span {
     font: 11px "Lucida Grande Bold", "Lucida Grande", Geneva, Verdana, Helvetica, Arial, sans-serif;
     color: #8a8a8a;
     text-decoration: none;
-    background: url(css/i/aos/hover/layer_close.png) 100% 2px no-repeat;
     background-size: 11px 11px;
     float: right;
     display: block;
@@ -9581,7 +8960,6 @@ html.xf .tdcard.controls #return-store>span {
 .popup-wdgt .wdgt-mdl a.close-link:hover, #area-product-selection .popup-wdgt .wdgt-mdl a.close-link:hover {
     color: #6b6b6b;
     text-decoration: underline;
-    background: url(css/i/aos/hover/layer_close_active.png) 100% 2px no-repeat;
     background-size: 11px 11px
 }
 
@@ -9658,8 +9036,6 @@ div.plain-header-popup h1 {
     font-size: 18px;
     font-weight: bold;
     color: #878787;
-    background: url(css/i/popups/header_checkout_faq.png) left top no-repeat;
-    background: url(../css/i/popups/header_checkout_faq_old.png) left top no-repeat\9;
     background-size: 106px 21px
 }
 
@@ -9678,7 +9054,6 @@ div.plain-header-popup p#close a {
     top: 2px;
     padding-right: 16px;
     color: #666;
-    background: url(css/i/aos/hover/layer_close.png) right 2px no-repeat;
     background-size: 11px 11px
 }
 
@@ -9749,7 +9124,6 @@ div.plain-header-popup li {
 }
 
 .plain-header-popup p.returntop a {
-    background: url(css/i/popups/arrow_up.png) 100% .3em no-repeat;
     background-size: 10px 10px;
     padding-right: 15px;
     color: #9a9a9a
@@ -9806,7 +9180,6 @@ div.plain-header-popup li {
     margin-top: -8px;
     width: 20px;
     height: 17px;
-    background-image: url(css/i/gallery-next.png);
     background-size: 20px 51px;
     background-repeat: no-repeat;
     text-indent: -1000px
@@ -9820,7 +9193,6 @@ div.plain-header-popup li {
     width: 20px;
     height: 17px;
     text-indent: -1000px;
-    background-image: url(css/i/gallery-prev.png);
     background-size: 20px 51px;
     background-repeat: no-repeat
 }
@@ -9878,26 +9250,12 @@ div.plain-header-popup li {
 }
 
 #gallery .thumbnails .top {
-    background: #e9edef url(css/i/gallery-bg-thumb-top.png) no-repeat scroll left top;
     background-size: 172px 6px;
     display: block;
     height: 6px;
     margin-bottom: -2px;
     margin-left: -5px;
     margin-right: -5px
-}
-
-#gallery .thumbnails .btm {
-    background: #e9edef url(css/i/gallery-bg-thumb-btm.png) no-repeat scroll left bottom;
-    background-size: 172px 6px;
-    display: block;
-    height: 6px;
-    line-height: 6px;
-    margin-top: -2px;
-    margin-left: -5px;
-    margin-right: -5px;
-    border-bottom: 18px solid #fff;
-    clear: both
 }
 
 #gallery .movieController {
@@ -9917,7 +9275,6 @@ div.plain-header-popup li {
     right: 10px;
     width: 483px;
     height: 8px;
-    background-image: url(css/i/meter-fill.png);
     background-size: 620px 16px;
     background-position: top left;
     background-repeat: no-repeat
@@ -9929,7 +9286,6 @@ div.plain-header-popup li {
     right: 0;
     left: 3px;
     bottom: 0;
-    background-image: url(css/i/meter-fill.png);
     background-size: 620px 16px;
     background-position: top right;
     background-repeat: no-repeat
@@ -9941,7 +9297,6 @@ div.plain-header-popup li {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(css/i/meter-background.png);
     background-size: 620px 16px;
     background-position: top right;
     background-repeat: no-repeat
@@ -9953,7 +9308,6 @@ div.plain-header-popup li {
     top: -6px;
     width: 9px;
     height: 5px;
-    background-image: url(../css/i/moviecontroller-arrow.gif);
     background-repeat: no-repeat
 }
 
@@ -9963,7 +9317,6 @@ div.plain-header-popup li {
     border: 0;
     padding: 0;
     background-position: 0 0;
-    background-image: url(../css/i/moviecontroller-button.gif)
 }
 
 #gallery .playing button {
@@ -10038,12 +9391,10 @@ div.basic div#gallery div.thumbnails {
 }
 
 div.basic div#gallery div.thumbnails div.top {
-    background-image: url(css/i/aos/gallery/bg-basic-top.png);
     background-size: 388px 6px
 }
 
 div.basic div#gallery div.thumbnails div.btm {
-    background-image: url(css/i/aos/gallery/bg-basic-bottom.png);
     background-size: 388px 6px
 }
 
@@ -10076,10 +9427,6 @@ div.basic div#gallery a.next {
 
 #productInfo div.title h2, #productInfo div.title h1 {
     margin-top: 9px
-}
-
-div[id="productInfo"] div.title h2, div[id="productInfo"] div.title h1 {
-    margin: 0
 }
 
 .product-details #productInfo h2, .product-details #productInfo h1 {
@@ -10123,11 +9470,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .product-info .gallery div {
-    *cursor: url(../css/i/aos/gallery/cursor-magnify.cur);
-    cursor: url(../css/i/aos/gallery/cursor-magnify.cur), pointer\9
-}
-
-.product-details .product-info .gallery div {
     height: 400px;
     width: 400px;
     left: 125px;
@@ -10151,10 +9493,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 .ios .hide .product-info.expanded .gallery {
     z-index: 0;
     position: absolute
-}
-
-.product-details .product-info.expanded .gallery.image-loading {
-    background-image: url(../src/shared/hero-gallery/css/img/spinner.gif)
 }
 
 .product-details .product-info.expanded .gallery div {
@@ -10204,7 +9542,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .product-info.zoomed .gallery span[id="corner"] {
-    background: url(css/i/aos/gallery/corner-overlay.png) 0 0 no-repeat;
     background-size: 3px 4px;
     display: block;
     width: 3px;
@@ -10230,13 +9567,11 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .product-info.expanded .gallery-controls .left {
-    background: url(source/store/shared/gallery-overlay/css/bg/gallery-previous-arrow-sprite.png) 0 0 no-repeat;
     background-size: 38px 158px;
     left: 15px
 }
 
 .product-details .product-info.expanded .gallery-controls .right {
-    background: url(source/store/shared/gallery-overlay/css/bg/gallery-next-arrow-sprite.png) 0 0 no-repeat;
     background-size: 38px 158px;
     right: 15px
 }
@@ -10261,21 +9596,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .product-info.zoomed .gallery div {
-    cursor: url(../css/i/aos/gallery/cursor-hand.png), -moz-grab
-}
-
-.product-details .product-info.zoomed .gallery div {
-    *cursor: url(../css/i/aos/gallery/cursor-hand.cur);
-    cursor: url(../css/i/aos/gallery/cursor-hand.cur), pointer\9
-}
-
-.product-details .product-info .mouse-tracking-guard {
-    cursor: url(../css/i/aos/gallery/cursor-grab.png), -moz-grabbing
-}
-
-.product-details .product-info .mouse-tracking-guard {
-    *cursor: url(../css/i/aos/gallery/cursor-grab.cur);
-    cursor: url(../css/i/aos/gallery/cursor-grab.cur), pointer\9
 }
 
 .product-details .playing .gallery {
@@ -10308,7 +9628,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .expanded .controller a.tourLink {
-    background: url(css/i/aos/gallery/pd-btn-tour.png) 0 0 no-repeat;
     background-size: 92px 20px;
     display: block;
     height: 20px;
@@ -10325,7 +9644,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details div.tour .controller a.galleryLink {
-    background: url(css/i/aos/gallery/pd-btn-gallery.png) 0 0 no-repeat;
     background-size: 65px 20px;
     display: block;
     height: 20px;
@@ -10345,7 +9663,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .expanded .captionWrap {
-    background: url(css/i/aos/gallery/pd-thumbs-top.png) 0 0 no-repeat;
     background-size: 608px 90px;
     height: auto !important;
     height: 1px;
@@ -10355,7 +9672,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .expanded .captionWrap .caption {
-    background: url(css/i/aos/gallery/pd-thumbs-textline.png) bottom left repeat-x;
     background-size: 4px 2px;
     display: block;
     margin: 0 1px;
@@ -10512,7 +9828,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .toggle {
-    background: url(source/store/shared/gallery-overlay/css/bg/gallery-close-sprite.png) 0 0 no-repeat;
     background-size: 31px 62px;
     display: none;
     cursor: pointer;
@@ -10522,24 +9837,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
     left: 15px;
     top: 15px;
     z-index: 1100
-}
-
-@media screen and (min-device-width :320px) and (max-device-width:480px) {
-    .product-details .toggle {
-        background: url(../source/store/shared/gallery-overlay/css/bg/gallery-close-sprite.svg) 0 0 no-repeat;
-        background-size: 62px 124px;
-        height: 62px;
-        width: 62px
-    }
-}
-
-@media only screen and (min-device-width :768px) and (max-device-width :1024px) and (orientation :portrait) and (-webkit-min-device-pixel-ratio:1) {
-    .product-details .toggle {
-        background: url(../source/store/shared/gallery-overlay/css/bg/gallery-close-sprite.svg) 0 0 no-repeat;
-        background-size: 62px 124px;
-        height: 62px;
-        width: 62px
-    }
 }
 
 .product-info.expanded .toggle {
@@ -10557,7 +9854,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .expanded div.playpause {
-    background: url(css/i/aos/gallery/pd-playpause.png) 100% -24px no-repeat;
     background-size: 180px 72px;
     border: 0;
     bottom: 16px;
@@ -10572,7 +9868,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
 }
 
 .product-details .expanded div.playpause div {
-    background: url(css/i/aos/gallery/pd-playpause.png) 0 0 no-repeat;
     background-size: 180px 72px;
     color: #999;
     display: table-cell;
@@ -10582,15 +9877,6 @@ div.subsection #productInfo div.title h2, div.subsection #productInfo div.title 
     padding: 0 4px 0 8px;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, .82);
     vertical-align: middle;
-    min-width: 35px
-}
-
-.product-details .expanded div.playpause div span {
-    display: block;
-    height: 15px;
-    text-align: center;
-    width: auto !important;
-    width: 35px;
     min-width: 35px
 }
 
@@ -10662,12 +9948,6 @@ body.no-scroll {
     position: fixed;
     overflow-y: scroll;
     width: 100%
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min--moz-device-pixel-ratio:2), only screen and (-o-min-device-pixel-ratio:2/1), only screen and (min-device-pixel-ratio:2) {
-    .product-details .product-info.expanded .gallery.image-loading {
-        background-image: url(../src/shared/hero-gallery/css/img/spinner-40x40.svg)
-    }
 }
 
 .product-info.expanded .gallery-controls .left, .product-info.expanded .gallery-controls .right {
@@ -10754,7 +10034,6 @@ body.saved-items div#cart-product-list div.invisible {
 body.saved-items div#cart-product-list div.invisible div.saved-item {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 body.saved-items div.content-group div.content-section div.saved-items-info li.product-date-added {
@@ -10784,13 +10063,11 @@ body.saved-items div.saved-items-info div.gift-package, body.saved-items div.sav
 
 body.saved-items div.saved-items-info div.gift-package p.product-gift-edit {
     padding-left: 20px;
-    background: url(css/i/aos/cart/icon-giftwrap.png) left 50% no-repeat;
     background-size: 12px 11px
 }
 
 body.saved-items div.saved-items-info div.gift-message p.product-gift-edit {
     padding-left: 20px;
-    background: url(css/i/aos/cart/icon-giftmessage.png) left 50% no-repeat;
     background-size: 13px 14px
 }
 
@@ -10820,7 +10097,6 @@ body.saved-items div.content-group div.content-section div.saved-items-actions l
 
 body.saved-items div.content-group div.content-section div.saved-items-info div.product-gift-message p.product-gift-message-edit {
     padding: 2px 14px 2px 20px;
-    background: url(css/i/aos/cart/icon-giftmessage.png) left 50% no-repeat;
     background-size: 13px 14px
 }
 
@@ -10870,17 +10146,7 @@ div#item-saved div.content a+a {
     margin-left: 8px
 }
 
-body.saved-items div.loading div.saved-item {
-    background: url(../css/i/aos/global/spinner_40x40.gif) 50% 50% no-repeat
-}
-
-body.saved-items div.loading div.saved-item div {
-    visibility: hidden;
-    background: url(../css/i/aos/global/spinner_40x40.gif) 50% 30% no-repeat
-}
-
 body.saved-cart div#customer-cart {
-    background-image: url(css/i/aos/cart/cart-footer-subfooter.png);
     background-size: 803px 400px;
     background-color: #eee
 }
@@ -10898,7 +10164,6 @@ body.saved-cart div#customer-cart ul.cart-product-list li.first div.product-cont
 }
 
 body.saved-cart div#saved-cart-notes div.tall-header, body.saved-cart div#saved-cart-notes div.content-section, body.saved-cart div#saved-cart-notes.two-column {
-    background-image: url(../source/store/base/patterns/content-group/css/bg/bg-two-column-secondary.png)
 }
 
 body.saved-cart div#saved-cart-notes div.tall-header {
@@ -10982,7 +10247,6 @@ body.saved-cart div.cart-totals ul li#add-all-to-cart {
 body.saved-cart div#cart-contact {
     margin-bottom: -5px;
     padding-bottom: 10px;
-    background: url(css/i/aos/cart/cart-footer-subfooter.png) left bottom;
     background-size: 803px 400px;
     border-top: 1px solid #cdcdcd
 }
@@ -11041,7 +10305,6 @@ body.saved-cart-list table#saved-carts-table td div {
 body.saved-cart-list table#saved-carts-table tr.invisible td div {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     height: 0;
     padding: 0
 }
@@ -11490,7 +10753,6 @@ div.two-column div.tall-header div.utility li#email-page a {
 }
 
 .continue-img {
-    background: url(oocss/sites/checkout/store/img/button-checkout-icon-home.png) no-repeat -4% 9px;
     background-size: 14px 12px;
     padding: 8px 9px 9px 9px
 }
@@ -11635,16 +10897,6 @@ div.two-column div.tall-header div.utility li#email-page a {
     color: #999
 }
 
-.saved-items #email-cart-overlay .footer {
-    padding-top: 14px;
-    padding-bottom: 16px;
-    background: linear-gradient(top, #FFF, #ebebeb);
-    background: -webkit-linear-gradient(#FFF, #ebebeb);
-    background: -moz-linear-gradient(top, #FFF, #ebebeb);
-    border-top: 1px solid #e5e5e5;
-    background-size: initial
-}
-
 body.interim.item-saved div#container {
     width: 980px
 }
@@ -11666,7 +10918,6 @@ body.saved-items div.content-group div.content-section div.saved-items-info .eng
 }
 
 .textfieldThermometerBackground, .textfieldThermometerMeter, .textfieldThermometerOverlay {
-    background: url(../oocss/common/objects/img/thermometer/visual-limit-textfield-sprite.png) no-repeat;
     height: 8px;
     width: 74px
 }
@@ -11739,14 +10990,12 @@ body#checkout-processing p.single-message {
     margin: 120px 0;
     padding-top: 50px;
     text-align: center;
-    background: url(../css/i/aos/global/spinner_40x40.gif) 50% top no-repeat
 }
 
 body#checkout-processing {
     background: #f1f1f1
 }
 
-@import url(../css/popup.css);
 h1.instn {
     padding: 8px 0 17px;
     font-size: 16px;
@@ -11763,7 +11012,6 @@ h1.instn {
     float: left;
     width: 100%;
     height: 4px;
-    background: url(css/i/aos/module/primary-top.png) no-repeat;
     background-size: 804px 4px;
     line-height: 4px
 }
@@ -11771,28 +11019,23 @@ h1.instn {
 .search-results #primary .module_top, .sub-department #primary .module_top, .category #primary .module_top, .top-with-content .module_top {
     border-bottom: 1px solid #cfcfcf;
     height: auto;
-    background: url(css/i/aos/module/primary-top-with-content.png) no-repeat;
     background-size: 804px 200px;
     line-height: inherit
 }
 
 .full .module_top {
-    background: url(css/i/aos/module/primary-full-top.png) no-repeat;
     background-size: 980px 4px
 }
 
 #primary_main .module_top {
-    background: url(css/i/aos/module/primary_main-top.png) no-repeat;
     background-size: 628px 4px
 }
 
 #navigation .module_top, #secondary .module_top {
-    background: url(css/i/aos/module/column-top.png) no-repeat;
     background-size: 168px 4px
 }
 
 .top-with-content .module_top {
-    background: url(css/i/aos/module/primary-top-with-content.png) no-repeat;
     background-size: 804px 200px;
     border-bottom: 1px solid #cfcfcf;
     height: auto;
@@ -11800,7 +11043,6 @@ h1.instn {
 }
 
 #primary_main .top-with-content .module_top {
-    background: url(css/i/aos/module/primary_main-top-with-content.png) no-repeat;
     background-size: 628px 200px;
     border-bottom: 1px solid #cfcfcf;
     height: auto;
@@ -11829,7 +11071,6 @@ h1.instn {
 .modulecontent div.sub-heading {
     margin: 0 1px;
     border-bottom: 1px solid #cfcfcf;
-    background: url(css/i/aos/module/bg-sub-heading.png) left 50% repeat-x;
     background-size: 23px 100px
 }
 
@@ -11848,7 +11089,6 @@ h1.instn {
 }
 
 #primary_main #promo-bar .module_btm {
-    background-image: url(css/i/aos/module/primary_main-btm-alt2.png);
     background-size: 628px 5px
 }
 
@@ -11856,40 +11096,33 @@ h1.instn {
     float: left;
     width: 100%;
     padding: 5px 0 0;
-    background: url(css/i/aos/module/primary-h2-top.png) no-repeat;
     background-size: 804px 4px
 }
 
 .full .module h2 {
-    background: url(css/i/aos/module/primary-full-h2-top.png) no-repeat;
     background-size: 980px 5px
 }
 
 #primary_main .module h2 {
-    background: url(css/i/aos/module/primary_main-h2-top.png) no-repeat;
     background-size: 628px 5px
 }
 
 #navigation .module h2, #secondary .module h2, #navigation .module .modulecontent .list_head h2, #secondary .module .modulecontent .list_head h2 {
-    background: url(css/i/aos/module/column-h2-top.png) no-repeat;
     background-size: 168px 5px;
     overflow: hidden
 }
 
 #primary_main .footerblock h2 {
-    background-image: url(css/i/aos/module/primary_main-fb-h2-top.png);
     background-size: 628px 5px
 }
 
 #navigation .footerblock h2, #secondary .footerblock h2 {
-    background-image: url(css/i/aos/module/column-fb-h2-top.png);
     background-size: 168px 5px
 }
 
 .module h2 span {
     display: block;
     padding: 0 0 5px 12px;
-    background: #2d5e9f url(css/i/aos/module/h2.png) repeat-x;
     background-size: 1px 50px;
     font-weight: bold;
     font-size: 13px;
@@ -11904,7 +11137,6 @@ h1.instn {
 }
 
 #primary_main .footerblock h2 span, #navigation .footerblock h2 span, #secondary .footerblock h2 span {
-    background: #afb0b2 url(css/i/aos/module/fb-h2.png) repeat-x;
     background-size: 1px 20px;
     text-shadow: 1px 1px 1px #999
 }
@@ -12107,7 +11339,6 @@ h1.instn {
 }
 
 .search-results .results .module_btm {
-    background-image: url(css/i/aos/module/primary-btm-alt.png);
     background-size: 804px 5px
 }
 
@@ -12131,7 +11362,6 @@ h1.instn {
 }
 
 .search-results #primary .results tfoot td a.selected {
-    background: url(css/i/aos/module/search-results-current.png) 50% 50% no-repeat;
     background-size: 17px 17px;
     font-weight: bold
 }
@@ -12158,7 +11388,6 @@ h1.instn {
     float: left;
     width: 100%;
     padding: 8px 0;
-    background: url(css/i/aos/module/primary-bg.png) repeat-y;
     background-size: 804px 1px
 }
 
@@ -12171,7 +11400,6 @@ h1.instn {
     -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-    background: url(../css/i/aos/module/primary-full-bg-full-gradient.gif) bottom left no-repeat;
     background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff 10%, #fff);
     background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff 10%, #fff);
     background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff 10%, #fff);
@@ -12204,79 +11432,19 @@ h1.instn {
 
 .sub-department #primary .modulecontent, .category #primary .modulecontent {
     padding: 0 0 20px 0;
-    background: url(css/i/aos/module/primary-bg.png) repeat-y;
     background-size: 804px 1px
 }
 
 .full .modulecontent {
-    background: url(css/i/aos/module/primary-full-bg.png) repeat-y;
     background-size: 980px 1px
 }
 
-.full-gradient .module_top {
-    background: url(../css/i/aos/module/primary-full-bg-gradient.gif) top left no-repeat;
-    background-size: 980px 1000px
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min--moz-device-pixel-ratio:2), only screen and (-o-min-device-pixel-ratio:2/1), only screen and (min-device-pixel-ratio:2) {
-    .full-gradient .module_top {
-        background: 0;
-        background-image: -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd), -webkit-linear-gradient(bottom, #fff, #fff), -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd), -webkit-linear-gradient(bottom, #fff, #fff), -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-image: -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd), -moz-linear-gradient(bottom, #fff, #fff), -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd), -moz-linear-gradient(bottom, #fff, #fff), -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-image: -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd), -ms-linear-gradient(bottom, #fff, #fff), -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd), -ms-linear-gradient(bottom, #fff, #fff), -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-repeat: no-repeat;
-        background-size: 1px 4px, 801px 4px, 802px 4px, 979px 4px, 980px 4px;
-        border-top: 1px solid #cdcdcd;
-        -webkit-border-top-left-radius: 4px;
-        -moz-border-radius-topleft: 4px;
-        border-top-left-radius: 4px;
-        -webkit-border-top-right-radius: 4px;
-        -moz-border-radius-topright: 4px;
-        border-top-right-radius: 4px
-    }
-}
-
-.family .full-gradient .modulecontent {
-    background: url(../css/i/aos/module/primary-full-bg-gradient.gif) bottom left no-repeat;
-    background-size: 980px 1000px;
-    padding-bottom: 10px;
-    margin-bottom: 8px
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min--moz-device-pixel-ratio:2), only screen and (-o-min-device-pixel-ratio:2/1), only screen and (min-device-pixel-ratio:2) {
-    .family .full-gradient .modulecontent {
-        background: 0;
-        background-image: -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd), -webkit-linear-gradient(bottom, #fff, #fff), -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd), -webkit-linear-gradient(bottom, #e2e2e2, #fff 12%), -webkit-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-image: -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd), -moz-linear-gradient(bottom, #fff, #fff), -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd), -moz-linear-gradient(bottom, #e2e2e2, #fff 12%), -moz-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-image: -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd), -ms-linear-gradient(bottom, #fff, #fff), -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd), -ms-linear-gradient(bottom, #e2e2e2, #fff 12%), -ms-linear-gradient(bottom, #cdcdcd, #cdcdcd);
-        background-repeat: no-repeat;
-        background-size: 1px 1000px, 801px 1000px, 802px 1000px, 979px 1000px, 980px 1000px;
-        -webkit-border-top-left-radius: 0;
-        -moz-border-radius-topleft: 0;
-        border-top-left-radius: 0;
-        -webkit-border-top-right-radius: 0;
-        -moz-border-radius-topright: 0;
-        border-top-right-radius: 0;
-        -webkit-border-bottom-left-radius: 4px;
-        -moz-border-radius-bottomleft: 4px;
-        border-bottom-left-radius: 4px;
-        -webkit-border-bottom-right-radius: 4px;
-        -moz-border-radius-bottomright: 4px;
-        border-bottom-right-radius: 4px;
-        border-bottom: 2px solid #cdcdcd;
-        padding-bottom: 8px;
-        margin-bottom: 8px
-    }
-}
-
 #primary #primary_main .modulecontent {
-    background: url(css/i/aos/module/primary_main-bg.png) repeat-y;
     background-size: 628px 1px
 }
 
 #navigation .modulecontent, #primary #secondary .modulecontent, #secondary .modulecontent {
     padding: 0;
-    background: url(css/i/aos/module/column-bg.png) repeat-y;
     background-size: 168px 1px
 }
 
@@ -12291,7 +11459,6 @@ body #navigation .module .list_content {
 .module .list_content, .module .list_foot {
     float: left;
     width: 100%;
-    background: url(css/i/aos/module/column-bg.png) repeat-y;
     background-size: 168px 1px
 }
 
@@ -12325,34 +11492,28 @@ img.module-banner {
     float: left;
     width: 100%;
     height: 5px;
-    background: url(css/i/aos/module/primary-btm.png) no-repeat;
     background-size: 804px 5px;
     line-height: 5px
 }
 
 #promo-bar .module_btm {
-    background: url(css/i/aos/module/promo-primary_btm.png) no-repeat;
     background-size: 804px 5px
 }
 
 .category .module_btm {
-    background: url(css/i/aos/module/category-primary_btm.png) no-repeat;
     background-size: 804px 5px
 }
 
 .full .module_btm {
-    background-image: url(css/i/aos/module/primary-full-btm.png);
     background-size: 980px 5px;
     background-repeat: no-repeat
 }
 
 #primary #primary_main .module_btm {
-    background: url(css/i/aos/module/primary_main-btm.png) no-repeat;
     background-size: 628px 5px
 }
 
 #navigation .module_btm, #secondary .module_btm {
-    background: url(css/i/aos/module/column-btm.png) no-repeat;
     background-size: 168px 5px
 }
 
@@ -12367,7 +11528,6 @@ img.module-banner {
     display: block;
     padding: 0;
     height: 26px;
-    background: url(css/i/aos/module/column-btm-clear.png) no-repeat !important;
     background-size: 168px 26px;
     line-height: 1em;
     text-indent: -9999em
@@ -12376,7 +11536,6 @@ img.module-banner {
 #navigation .module h3, #secondary .module h3 {
     float: left;
     width: 100%;
-    background: url(css/i/aos/module/column-h3-bg.png) repeat-y;
     background-size: 168px 1px;
     font-weight: bold;
     font-size: 12px;
@@ -12404,7 +11563,6 @@ img.module-banner {
 }
 
 #navigation .module h3 a, #secondary .module h3 a {
-    background: transparent url(css/i/aos/module/h3-arrow.png) 146px .47em no-repeat;
     background-size: 26px 26px
 }
 
@@ -12525,7 +11683,6 @@ img.module-banner {
 }
 
 #navigation .footerblock .module_top, #secondary .footerblock .module_top {
-    background: url(css/i/aos/module/column-top-alt.png) no-repeat;
     background-size: 168px 4px
 }
 
@@ -12535,32 +11692,26 @@ img.module-banner {
     min-height: 30.5em;
     height: auto !important;
     height: 30.5em;
-    background: transparent url(css/i/aos/module/primary_main-bg-alt2.png) repeat-y scroll 100% 0;
     background-size: 628px 1px;
     color: #666
 }
 
 #primary_main .footerblock .module_btm {
     width: 628px;
-    background: url(css/i/aos/module/primary_main-btm-alt.png) 100% 0 no-repeat;
     background-size: 628px 5px
 }
 
 #primary_main .ipfb .modulecontent {
-    background-image: url(../css/i/aos/module/primary_main-bg-alt-l.png)
 }
 
 #primary_main .ipfb .module_btm {
-    background-image: url(../css/i/aos/module/primary_main-btm-alt-l.png)
 }
 
 #navigation .footerblock .module_btm, #secondary .footerblock .module_btm {
-    background: url(css/i/aos/module/column-btm.png) no-repeat scroll 0 50%;
     background-size: 168px 5px
 }
 
 #navigation .footerblock .modulecontent, #secondary .footerblock .modulecontent {
-    background: url(css/i/aos/module/column-bg.png) repeat-y scroll 0 50%;
     background-size: 168px 1px
 }
 
@@ -12579,8 +11730,6 @@ img.module-banner {
 
 #primary_main .footerblock .list_content ul li a, #navigation .footerblock .list_content ul li a, #secondary .footerblock .list_content ul li a, #primary_main .footerblock ul.more li a, #navigation .footerblock ul.more li a, #secondary .footerblock ul.more li a, #secondary .footerblock .modulecontent p.more a, #navigation .footerblock .modulecontent p.more a, #navigation .footerblock .modulecontent ul.more a, #navigation .iphonebox .modulecontent p.more a, #primary_main .footerblock .modulecontent p.more a, #ipod-everywhere p a, td.purchase-info p.more a, .promo p.more a, a.learn-more {
     padding-right: 7px;
-    background: url(css/i/aos/module/link-more.png) 100% 82% no-repeat;
-    *background: url(css/i/aos/module/link-more.png) 105% 92% no-repeat;
     background-size: 4px 9px
 }
 
@@ -12594,7 +11743,6 @@ a.learn-more.arrow-remove {
     top: 3px;
     width: 14px;
     height: 14px;
-    background: url(css/i/aos/global/icon-help-overlay.png) left bottom no-repeat;
     background-size: 14px 14px
 }
 
@@ -12838,7 +11986,6 @@ body .footerblock #store_details .modulecontentwrap {
 }
 
 .tab-controller li a, .tab-controller li a strong {
-    background: url(css/i/aos/module/bg-tab-controller-consolidated.png) no-repeat;
     background-size: 422px 164px;
     background-color: #fff
 }
@@ -12954,7 +12101,6 @@ div#primary_main div.tab-quantity ul.t1 {
     padding: 0;
     width: 626px;
     border-bottom: 1px solid #e5e6e8;
-    background: url(css/i/aos/module/primary_main-grid.png) 50% 0 repeat-y;
     background-size: 314px 1px
 }
 
@@ -13037,14 +12183,12 @@ div.module ul.has-specials {
     position: relative;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
-    background: url(css/i/aos/module/category-grid.png) 50% 0 repeat-y;
     background-size: 269px 1px
 }
 
 .category .module ul.product-row {
     border-bottom: 1px solid #e5e5e5;
     width: 801px;
-    background: #fff url(css/i/aos/module/category-grid.png) 265px 0 repeat-y;
     background-size: 269px 1px
 }
 
@@ -13053,7 +12197,6 @@ div.module ul.has-specials {
 }
 
 #primary_main #promo-bar ul {
-    background-image: url(css/i/aos/module/primary_main-category-grid.png);
     background-size: 210px 1px
 }
 
@@ -13135,7 +12278,6 @@ div.module ul.has-specials {
     background-color: #fff;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 #primary_main #promo-bar .modulecontent ul li a {
@@ -13424,7 +12566,6 @@ dd.price span.savings, dd.price span.message, p.price span.savings, p.price span
 .module #product-accessories-list span.rating {
     height: 13px;
     width: 60px;
-    background-image: url(css/i/aos/module/star-ratings.png);
     background-size: 61px 117px;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -13450,8 +12591,6 @@ dd.price span.savings, dd.price span.message, p.price span.savings, p.price span
 .module #product-accessories-list p.more a {
     color: #999;
     padding-right: 7px;
-    background: url(css/i/aos/module/link-more.png) 100% 80% no-repeat;
-    _background-image: url(css/i/aos/module/link-more.png);
     background-size: 4px 9px
 }
 
@@ -13543,14 +12682,6 @@ dd.price span.savings, dd.price span.message, p.price span.savings, p.price span
     margin: 1em 0
 }
 
-#store-prod-top .engrave-no div.gift-pack-checkbox label, #store-prod-top .engrave-yes div.gift-pack-checkbox label {
-    width: 120px
-}
-
-#area-gifting div.gift-no h2, #area-gifting div.gift-yes h2 {
-    font-size: 16px
-}
-
 #store-prod-top #area-gifting p {
     color: #000
 }
@@ -13584,13 +12715,11 @@ div ul#store-nav-tab li a {
 }
 
 ul#store-nav-tab li.left a {
-    background: #b9c3c6 url(css/i/bg-nav-tab-cap-left.png) top left no-repeat;
     background-size: 13px 50px;
     border: 0
 }
 
 ul#store-nav-tab li.right a {
-    background: #b9c3c6 url(css/i/bg-nav-tab-cap-right.png) top right no-repeat;
     background-size: 12px 50px
 }
 
@@ -13951,10 +13080,6 @@ dd.more {
     vertical-align: middle
 }
 
-#as-pagewrapper #as-page-wrap #as-page-content div.gift-separator {
-    margin: 5px 0
-}
-
 .nojs .plf {
     display: none
 }
@@ -13997,7 +13122,6 @@ dd.more {
 .plf-form {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     -webkit-transform: scale(.9) translateZ(0);
     -moz-transform: scale(.9) translateZ(0);
     -ms-transform: scale(.9) translateZ(0);
@@ -14015,7 +13139,6 @@ dd.more {
 .plf .plf-msg {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     position: absolute;
     left: 0;
     right: 0;
@@ -14130,7 +13253,6 @@ dd.more {
 .plf-showing-data .plf-form {
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100);
     -webkit-transform: scale(1) translateZ(0);
     -moz-transform: scale(1) translateZ(0);
     -ms-transform: scale(1) translateZ(0);
@@ -14141,13 +13263,11 @@ dd.more {
 .plf-showing-data .plf-msg {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 .plf-closing .plf-form, .plf-closing .plf-msg {
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0)
 }
 
 .plf-drawer .subhead {
@@ -14189,7 +13309,6 @@ dd.more {
     display: block;
     float: left;
     position: relative;
-    background-image: url(source/store/features/page-level-feedback/css/bg/star-ratings.png);
     background-repeat: no-repeat;
     background-position: 2px -18px;
     background-size: 18px 36px;
@@ -14259,14 +13378,6 @@ dd.more {
     -webkit-transition: none;
     -moz-transition: none;
     transition: none
-}
-
-.button.marketing.plf-cancel-btn>span {
-    background: 0;
-    background-image: none;
-    background-color: none;
-    border: 0;
-    color: #FFF
 }
 
 .button.marketing.plf-cancel-btn {
@@ -14402,7 +13513,6 @@ dd.more {
     background: -moz-linear-gradient(top, #f1f1f1, #d7d7d7);
     background: -o-linear-gradient(top, #f1f1f1, #d7d7d7);
     background: linear-gradient(top, #f1f1f1, #d7d7d7);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=" #f1f1f1 ", endColorstr=" #d7d7d7 ")";
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="#f1f1f1", endColorstr="#d7d7d7");
     background-size: 10px 200px
 }
@@ -14461,7 +13571,6 @@ dd.more {
     background: -moz-linear-gradient(top, white, #f2f2f2);
     background: -o-linear-gradient(top, white, #f2f2f2);
     background: linear-gradient(top, white, #f2f2f2);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=" white ", endColorstr=" #f2f2f2 ")";
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="white", endColorstr="#f2f2f2")
 }
 
@@ -14505,7 +13614,6 @@ dd.more {
     background: -moz-linear-gradient(top, #0084c9, #00527d);
     background: -o-linear-gradient(top, #0084c9, #00527d);
     background: linear-gradient(top, #0084c9, #00527d);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=" #0084c9 ", endColorstr=" #00527d ")";
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="#0084c9", endColorstr="#00527d")
 }
 
@@ -14575,7 +13683,6 @@ dd.more {
     background: -moz-linear-gradient(top, #0084c9, #00527d);
     background: -o-linear-gradient(top, #0084c9, #00527d);
     background: linear-gradient(top, #0084c9, #00527d);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=" #0084c9 ", endColorstr=" #00527d ")";
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr="#0084c9", endColorstr="#00527d")
 }
 
@@ -14670,7 +13777,6 @@ dd.more {
     height: 14px;
     overflow: hidden;
     cursor: pointer;
-    background: url(../src/features/buac/css/img/spinner-blue-button.gif) no-repeat
 }
 
 .retail-availability-search-pagination {
@@ -14681,7 +13787,6 @@ dd.more {
 
 .retail-availability-search-pagination-link {
     display: block;
-    background: url(../src/features/buac/css/img/sprites.png) no-repeat
 }
 
 .retail-availability-search-pagination-link:active {
@@ -14716,40 +13821,6 @@ dd.more {
 .retail-availability-search-pagination-link.next:focus {
     outline: 0;
     ie-dummy: expression(this.hideFocus=true)
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min--moz-device-pixel-ratio:2), only screen and (-o-min-device-pixel-ratio:2 / 1), only screen and (min-device-pixel-ratio:2) {
-    .retail-availability-search-pagination-link {
-        background: url(../src/features/buac/css/img/sprites.png) no-repeat;
-        background-size: 13px 13px
-    }
-}
-
-.check-availability-search-section .retail-availability-search-info .retail-availability-search-trigger-block {
-    padding: 7px 0 0
-}
-
-.retail-availability-search-info .retail-availability-search-trigger-block {
-    display: none;
-    padding: 6px 0 8px
-}
-
-.product-table .shipping-description, .model-type-purchase .shipping-description, .purchase-info .shipping-description {
-    color: #000;
-    font-weight: bold
-}
-
-.purchase-info .availability, .retail-availability-search-info .retail-availability-search-trigger-block .retail-availability-search-availability-value, .retail-availability-search-info .retail-availability-search-trigger-block .retail-availability-search-availability-label {
-    color: #000
-}
-
-.retail-availability-search-info span, .retail-availability-search-info.ready .retail-availability-search-trigger-block {
-    display: block
-}
-
-.product-table .customer_commit_display, .model-type-purchase .customer_commit_display, .purchase-info .customer_commit_display, .engraving .secondary .availability span {
-    font-weight: normal;
-    color: #000
 }
 
 .pinwheel .row:before, .pinwheel .row:after {
@@ -15259,7 +14330,6 @@ dd.more {
     position: absolute;
     opacity: 0;
     filter: alpha(opacity=0);
-    -ms-filter: alpha(opacity=0);
     z-index: 100000;
     padding: 14px 10px 10px 10px;
     border: 1px solid #ccc;
@@ -15269,7 +14339,6 @@ dd.more {
     -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, .6);
     -moz-box-shadow: 0 0 25px rgba(0, 0, 0, .6);
     box-shadow: 0 0 25px rgba(0, 0, 0, .6);
-    background: url(../common/src/store/base/patterns/bubbles/css/bg/bubble.png) no-repeat #ffffc3;
     background: -webkit-gradient(linear, left top, left bottom, from(#ffd), to(#ffffc3));
     white-space: normal
 }
@@ -15278,7 +14347,6 @@ dd.more {
     left: 4px;
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100);
     top: -88px;
     color: #f30;
     white-space: normal
@@ -15290,7 +14358,6 @@ dd.more {
 
 #engraving_form .alert_bubble .arrow, .bubble .arrow {
     position: absolute;
-    background: url(../common/src/store/base/patterns/bubbles/css/bg/arrow-bottom.png) no-repeat;
     width: 18px;
     height: 16px;
     margin-left: -9px;
@@ -15299,7 +14366,6 @@ dd.more {
 }
 
 .bubble.below .arrow, .below .arrow {
-    background: url(../common/src/store/base/patterns/bubbles/css/bg/arrow-top.png) no-repeat;
     width: 18px;
     height: 16px;
     margin-left: -9px;
@@ -15491,7 +14557,6 @@ dd.more {
     bottom: 4.2em;
     opacity: 1;
     filter: alpha(opacity=100);
-    -ms-filter: alpha(opacity=100)
 }
 
 .finance-calculator .loan-value .bubble .arrow {
