@@ -16,7 +16,6 @@ gem "launchy", ">= 2.2.0", :group => :test
 gem "capybara", ">= 2.0.3", :group => :test
 gem "factory_girl_rails", ">= 4.2.0", :group => [:development, :test]
 gem "less-rails"
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "devise", ">= 2.2.3"
 #gem 'omniauth'
 #gem 'omniauth-facebook'
