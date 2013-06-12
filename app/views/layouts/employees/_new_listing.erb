@@ -2,7 +2,7 @@
     <%= simple_form_for @listing do |f| %>
         <div class="inputs">
           <div class="form-row">
-            Моя текущая должность <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %>, и я получаю
+            Моя текущая должность <%= f.input :current_occupation, label:false, placeholder:I18n.t("listings.input.placeholder.current_occupation") %> и я получаю
             <%= f.input :current_salary, label:false, placeholder:I18n.t("listings.input.placeholder.current_salary")  %>  в месяц.
             <p></p>
           </div>

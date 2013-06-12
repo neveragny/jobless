@@ -20,7 +20,7 @@ module ApplicationHelper
 
     I18n.with_options :locale => options[:locale] do |locale|
       case distance_in_minutes
-        when 0..1
+        when 0..5
           return I18n.t(:less_than_x_minutes, :count => 1) if distance_in_minutes == 0
 
           case distance_in_seconds

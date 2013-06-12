@@ -8,6 +8,9 @@ ru:
         password: "Пароль"
         password_confirmation: "Подтвердите пароль"
         current_password: "Текущий пароль"
+      contact_message:
+        from_email: "От"
+        body: "Сообщение"
   listings:
     created: "Заявка создана."
     my_current_listings: "Мои заявки."

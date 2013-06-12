@@ -20,8 +20,9 @@
                   <%= link_to "‌cвязаться", "#", :class => "btn btn-success contact-link", :id => "contact-link", :data => {:contact => listing.employee_id} %>
                 </td>
                 <td class="datein">
-                  <div class="date"><%= listing.created_at %></div>
+                  <div class="date"><%#= listing.created_at %></div>
                   <!--time_ago-->
+                  <%= time_ago listing.created_at %>
                 </td>
               </tr>
           <% end %>
@@ -33,3 +34,5 @@
 </div>
 
 <%= render :partial => 'contact_from' %>
+
+
