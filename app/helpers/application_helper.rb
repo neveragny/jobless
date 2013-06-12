@@ -84,7 +84,7 @@ module ApplicationHelper
   end
 
   def password_prompt
-    if user_signed_in? && current_user.encrypted_password.nil?
+    if user_signed_in? && current_user.needs_password?
       render 'devise/registrations/set_password'
     end
   end

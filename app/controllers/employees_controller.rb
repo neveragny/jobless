@@ -5,13 +5,13 @@ class EmployeesController < ApplicationController
     if current_user
       @employee = Employee.find(current_user)
       @employee.password = params[:password]["password"]
-      @employee.password_confirmation = params[:password]["password"]
-      @employee.sign_in_count = 2
+      @employee.password_confirmation = params[:password]["password_confirmation"]
+      @employee.needs_password = false
       if @employee.save
         sign_in(@employee, :bypass => true)
         flash[:notice] = I18n.t("common.password_updated")
       else
-        flash[:notice] = @employee.errors.full_messages.first
+        flash[:error] = @employee.errors.full_messages.first
       end
     end
     redirect_to root_url
@@ -24,7 +24,7 @@ class EmployeesController < ApplicationController
         if @message.save
           flash[:notice] = I18n.t("listings.message_suc_sent")
         else
-          flash[:notice] = @message.errors.full_messages.first
+          flash[:error] = @message.errors.full_messages.first
         end
       end
       redirect_to listings_path

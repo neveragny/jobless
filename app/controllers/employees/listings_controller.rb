@@ -19,7 +19,7 @@ class Employees::ListingsController < EmployeesController
       end
       redirect_to root_url
     else
-      @employee = Employee.new(:email => params[:listing][:email], :password => "p@ssword", :password_confirmation => "p@ssword" )
+      @employee = Employee.new(:email => params[:listing][:email], :password => "p@ssword", :password_confirmation => "p@ssword", :needs_password => true )
       if @employee.save
         #Rails.logger.debug params
         @listing = @employee.listings.build(params[:listing])
