@@ -12,6 +12,7 @@ ru:
         from_email: "От"
         body: "Сообщение"
   listings:
+    create: "Добавить заявку"
     created: "Заявка создана."
     my_current_listings: "Мои заявки."
     message_suc_sent: "Сообщение доставлено."
